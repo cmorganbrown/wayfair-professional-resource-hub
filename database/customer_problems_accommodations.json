@@ -1,0 +1,227 @@
+{
+  "segment": "accommodations",
+  "segment_description": "Hotels, resorts, vacation rentals, and hospitality venues purchasing furniture and fixtures for guest spaces",
+  "research_date": "2024-12-28",
+  "problems": [
+    {
+      "id": "hotel_001",
+      "title": "Durability Requirements for High-Traffic Guest Areas",
+      "description": "Need for furniture that withstands constant guest use while maintaining appearance and functionality over extended periods",
+      "pain_level": 9,
+      "frequency": "Very High",
+      "impact_areas": ["Replacement costs", "Guest satisfaction", "Maintenance burden", "Property aesthetics"],
+      "current_solutions": ["Commercial-grade furniture", "Regular maintenance", "Protective treatments"],
+      "solution_gaps": ["Limited durable options", "High costs for quality", "Maintenance complexity"],
+      "wayfair_opportunity": "Hospitality-grade durability furniture, wear-resistant materials, maintenance-friendly designs"
+    },
+    {
+      "id": "hotel_002",
+      "title": "Brand Consistency Across Property Portfolio",
+      "description": "Maintaining consistent brand image and guest experience across multiple properties while accommodating different layouts and local preferences",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Brand consistency", "Guest experience", "Operational efficiency", "Design cohesion"],
+      "current_solutions": ["Brand standards", "Approved vendor lists", "Design guidelines"],
+      "solution_gaps": ["Limited customization", "Local adaptation challenges", "Cost variations"],
+      "wayfair_opportunity": "Brand-consistent collections, customizable options, multi-property management tools"
+    },
+    {
+      "id": "hotel_003",
+      "title": "Guest Safety and Liability Concerns",
+      "description": "Ensuring all furniture meets safety standards and minimizes liability risks while providing comfort and functionality",
+      "pain_level": 8,
+      "frequency": "Very High",
+      "impact_areas": ["Guest safety", "Legal liability", "Insurance costs", "Regulatory compliance"],
+      "current_solutions": ["Safety certifications", "Regular inspections", "Compliance verification"],
+      "solution_gaps": ["Complex safety standards", "Limited certified options", "High compliance costs"],
+      "wayfair_opportunity": "Safety-certified hospitality furniture, compliance documentation, liability reduction features"
+    },
+    {
+      "id": "hotel_004",
+      "title": "Rapid Replacement for Damaged Items",
+      "description": "Quickly replacing damaged or worn furniture to maintain guest experience and avoid room downtime",
+      "pain_level": 8,
+      "frequency": "High",
+      "impact_areas": ["Room availability", "Guest satisfaction", "Revenue loss", "Operational efficiency"],
+      "current_solutions": ["Emergency stock", "Express delivery", "Local suppliers"],
+      "solution_gaps": ["Stock availability", "High emergency costs", "Quality consistency"],
+      "wayfair_opportunity": "Rapid replacement programs, emergency stock services, consistent quality guarantee"
+    },
+    {
+      "id": "hotel_005",
+      "title": "Seasonal Demand and Inventory Management",
+      "description": "Managing furniture inventory and procurement around seasonal occupancy patterns and demand fluctuations",
+      "pain_level": 6,
+      "frequency": "High",
+      "impact_areas": ["Inventory costs", "Cash flow", "Storage space", "Seasonal readiness"],
+      "current_solutions": ["Seasonal planning", "Flexible inventory", "Storage management"],
+      "solution_gaps": ["Poor demand forecasting", "Storage limitations", "Cash flow impact"],
+      "wayfair_opportunity": "Seasonal planning tools, flexible inventory programs, demand forecasting support"
+    },
+    {
+      "id": "hotel_006",
+      "title": "Guest Experience and Comfort Optimization",
+      "description": "Selecting furniture that enhances guest comfort and satisfaction while balancing cost and durability requirements",
+      "pain_level": 7,
+      "frequency": "Very High",
+      "impact_areas": ["Guest satisfaction", "Review ratings", "Repeat business", "Competitive advantage"],
+      "current_solutions": ["Guest feedback", "Comfort testing", "Design consultation"],
+      "solution_gaps": ["Limited comfort options", "Subjective preferences", "Cost-comfort balance"],
+      "wayfair_opportunity": "Guest-tested comfort furniture, satisfaction optimization, comfort-cost balance solutions"
+    },
+    {
+      "id": "hotel_007",
+      "title": "Easy Cleaning and Maintenance Requirements",
+      "description": "Selecting furniture that supports efficient housekeeping operations and maintains hygiene standards",
+      "pain_level": 8,
+      "frequency": "Very High",
+      "impact_areas": ["Housekeeping efficiency", "Hygiene standards", "Labor costs", "Guest health"],
+      "current_solutions": ["Easy-clean materials", "Maintenance-friendly designs", "Cleaning protocols"],
+      "solution_gaps": ["Limited easy-clean options", "Maintenance complexity", "Hygiene challenges"],
+      "wayfair_opportunity": "Easy-clean furniture designs, antimicrobial materials, maintenance-optimized furniture"
+    },
+    {
+      "id": "hotel_008",
+      "title": "Space Optimization in Compact Guest Rooms",
+      "description": "Maximizing functionality and comfort in limited guest room space through strategic furniture selection",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Space utilization", "Guest comfort", "Room functionality", "Design efficiency"],
+      "current_solutions": ["Multi-functional furniture", "Space planning", "Compact designs"],
+      "solution_gaps": ["Limited space-saving options", "Functionality trade-offs", "Design constraints"],
+      "wayfair_opportunity": "Space-optimized hospitality furniture, multi-functional designs, compact solutions"
+    },
+    {
+      "id": "hotel_009",
+      "title": "Fire Safety and Emergency Evacuation Compliance",
+      "description": "Ensuring furniture meets fire safety standards and doesn't impede emergency evacuation procedures",
+      "pain_level": 8,
+      "frequency": "Very High",
+      "impact_areas": ["Fire safety", "Emergency evacuation", "Regulatory compliance", "Guest safety"],
+      "current_solutions": ["Fire-resistant materials", "Compliance verification", "Safety inspections"],
+      "solution_gaps": ["Complex fire codes", "Limited fire-safe options", "Compliance costs"],
+      "wayfair_opportunity": "Fire-safe hospitality furniture, compliance verification, safety-optimized designs"
+    },
+    {
+      "id": "hotel_010",
+      "title": "Technology Integration in Guest Furniture",
+      "description": "Incorporating charging stations, connectivity features, and smart technology into guest room furniture",
+      "pain_level": 6,
+      "frequency": "High",
+      "impact_areas": ["Guest convenience", "Technology expectations", "Competitive advantage", "Future-proofing"],
+      "current_solutions": ["Tech-enabled furniture", "Charging stations", "Smart room features"],
+      "solution_gaps": ["Limited tech options", "Rapid technology changes", "Integration complexity"],
+      "wayfair_opportunity": "Tech-integrated hospitality furniture, charging solutions, smart room compatibility"
+    },
+    {
+      "id": "hotel_011",
+      "title": "Theft Prevention and Security Features",
+      "description": "Preventing theft of furniture and ensuring security without compromising guest comfort or room aesthetics",
+      "pain_level": 6,
+      "frequency": "Medium",
+      "impact_areas": ["Asset protection", "Security costs", "Guest comfort", "Room aesthetics"],
+      "current_solutions": ["Secured furniture", "Theft-resistant designs", "Security monitoring"],
+      "solution_gaps": ["Limited security options", "Aesthetics vs security", "Cost of secure features"],
+      "wayfair_opportunity": "Theft-resistant hospitality furniture, discrete security features, asset protection solutions"
+    },
+    {
+      "id": "hotel_012",
+      "title": "Accessibility and ADA Compliance",
+      "description": "Ensuring furniture in accessible rooms meets ADA requirements and serves guests with disabilities effectively",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["ADA compliance", "Accessibility", "Legal requirements", "Inclusive hospitality"],
+      "current_solutions": ["ADA-compliant furniture", "Accessibility audits", "Universal design"],
+      "solution_gaps": ["Limited accessible options", "Design constraints", "Compliance complexity"],
+      "wayfair_opportunity": "ADA-compliant hospitality furniture, universal design solutions, accessibility optimization"
+    },
+    {
+      "id": "hotel_013",
+      "title": "Cost Management Under Budget Constraints",
+      "description": "Balancing furniture quality and guest experience expectations with limited capital expenditure budgets",
+      "pain_level": 7,
+      "frequency": "Very High",
+      "impact_areas": ["Budget compliance", "Quality standards", "Guest satisfaction", "Investment ROI"],
+      "current_solutions": ["Value engineering", "Phased replacements", "Budget optimization"],
+      "solution_gaps": ["Quality-cost balance", "Limited budget flexibility", "ROI measurement"],
+      "wayfair_opportunity": "Value-optimized hospitality furniture, budget planning tools, ROI tracking"
+    },
+    {
+      "id": "hotel_014",
+      "title": "Environmental Sustainability and Green Certifications",
+      "description": "Meeting sustainability goals and green certification requirements while maintaining quality and cost effectiveness",
+      "pain_level": 5,
+      "frequency": "Medium",
+      "impact_areas": ["Sustainability goals", "Green certifications", "Brand reputation", "Environmental impact"],
+      "current_solutions": ["Sustainable furniture", "Green certifications", "Environmental partnerships"],
+      "solution_gaps": ["Limited sustainable options", "Higher costs", "Certification complexity"],
+      "wayfair_opportunity": "Sustainable hospitality furniture, green certification support, environmental impact tracking"
+    },
+    {
+      "id": "hotel_015",
+      "title": "Coordinated Design Across Different Room Types",
+      "description": "Maintaining design cohesion across various room categories and common areas while meeting different functional needs",
+      "pain_level": 6,
+      "frequency": "High",
+      "impact_areas": ["Design cohesion", "Brand consistency", "Operational efficiency", "Guest experience"],
+      "current_solutions": ["Design standards", "Coordinated collections", "Design consultation"],
+      "solution_gaps": ["Limited coordinated options", "Design complexity", "Cost variations"],
+      "wayfair_opportunity": "Coordinated hospitality collections, multi-room design solutions, cohesive design tools"
+    },
+    {
+      "id": "hotel_016",
+      "title": "Furniture Installation During Operations",
+      "description": "Installing and replacing furniture while maintaining guest operations and minimizing disruption",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Operational disruption", "Guest satisfaction", "Installation efficiency", "Revenue protection"],
+      "current_solutions": ["Phased installation", "Off-hours work", "Guest communication"],
+      "solution_gaps": ["Installation timing", "Guest disruption", "Operational impact"],
+      "wayfair_opportunity": "Minimal-disruption installation, flexible timing, operational coordination"
+    },
+    {
+      "id": "hotel_017",
+      "title": "Vendor Coordination and Delivery Logistics",
+      "description": "Managing multiple furniture vendors and coordinating deliveries to minimize operational disruption",
+      "pain_level": 6,
+      "frequency": "High",
+      "impact_areas": ["Vendor coordination", "Delivery timing", "Operational efficiency", "Project management"],
+      "current_solutions": ["Vendor management", "Delivery coordination", "Project scheduling"],
+      "solution_gaps": ["Poor vendor coordination", "Timing conflicts", "Logistics complexity"],
+      "wayfair_opportunity": "Coordinated delivery services, vendor management platform, logistics optimization"
+    },
+    {
+      "id": "hotel_018",
+      "title": "International Properties and Local Regulations",
+      "description": "Managing furniture procurement for international properties with varying regulations, standards, and local preferences",
+      "pain_level": 7,
+      "frequency": "Low",
+      "impact_areas": ["Regulatory compliance", "Local preferences", "Logistics complexity", "Cost management"],
+      "current_solutions": ["Local partnerships", "Regulatory compliance", "International logistics"],
+      "solution_gaps": ["Complex regulations", "Local sourcing", "Logistics costs"],
+      "wayfair_opportunity": "International compliance support, local sourcing network, global logistics solutions"
+    },
+    {
+      "id": "hotel_019",
+      "title": "Furniture Lifecycle Planning and Asset Management",
+      "description": "Planning furniture replacement cycles and managing assets across property portfolio for optimal ROI",
+      "pain_level": 5,
+      "frequency": "Medium",
+      "impact_areas": ["Asset management", "Replacement planning", "ROI optimization", "Budget forecasting"],
+      "current_solutions": ["Asset tracking", "Lifecycle planning", "Condition assessments"],
+      "solution_gaps": ["Poor lifecycle tracking", "Limited planning tools", "ROI measurement"],
+      "wayfair_opportunity": "Asset management platform, lifecycle planning tools, ROI optimization"
+    },
+    {
+      "id": "hotel_020",
+      "title": "Guest Review Impact and Furniture Satisfaction",
+      "description": "Managing the impact of furniture quality and comfort on guest reviews and online ratings",
+      "pain_level": 6,
+      "frequency": "High",
+      "impact_areas": ["Online reviews", "Guest satisfaction", "Reputation management", "Booking impact"],
+      "current_solutions": ["Review monitoring", "Guest feedback", "Quality improvements"],
+      "solution_gaps": ["Review correlation", "Satisfaction measurement", "Improvement tracking"],
+      "wayfair_opportunity": "Review impact tracking, satisfaction optimization, quality correlation tools"
+    }
+  ]
+} 

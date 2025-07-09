@@ -1,0 +1,27 @@
+{
+  "solutions": [],
+  "metadata": {
+    "solution_categories": [
+      "products",
+      "services", 
+      "tools",
+      "resources",
+      "support"
+    ]
+  },
+  "schema": {
+    "id": "unique solution identifier",
+    "solution_name": "name of product/service/tool",
+    "category": "products|services|tools|resources|support",
+    "description": "how this solution addresses customer needs",
+    "target_segments": ["array of customer segment ids"],
+    "problems_solved": ["array of problem ids this addresses"],
+    "key_benefits": ["primary benefits to customers"],
+    "wayfair_url": "link to wayfair professional page",
+    "pricing_model": "description of pricing approach",
+    "availability": "in-stock|special-order|consultation-required",
+    "related_solutions": ["complementary solution ids"],
+    "success_metrics": ["how success is measured"],
+    "implementation_effort": "low|medium|high"
+  }
+} 

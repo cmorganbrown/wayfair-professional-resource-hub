@@ -1,0 +1,84 @@
+{
+  "property_management_summaries": {
+    "segment": "property_management",
+    "total_articles": 20,
+    "summary_date": "2024-12-28",
+    "content_distribution": {
+      "tenant_satisfaction": 6,
+      "durability_maintenance": 5,
+      "cost_optimization": 4,
+      "turnover_efficiency": 3,
+      "compliance_safety": 2
+    },
+    "high_impact_articles": [
+      {
+        "article_id": "prop_tenant_001",
+        "title": "Tenant Satisfaction Through Quality Furniture: The ROI of Happy Residents",
+        "problems_addressed": ["prop_001", "prop_006"],
+        "pain_level": "8-9",
+        "word_count": "650-700",
+        "wayfair_solutions": ["quality_assurance", "tenant_satisfaction_programs"],
+        "key_takeaways": [
+          "Quality furniture increases tenant satisfaction by 40%",
+          "Higher satisfaction reduces turnover by 25%",
+          "Furniture quality impacts lease renewal rates",
+          "Investment in quality reduces long-term costs"
+        ],
+        "seo_keywords": ["tenant satisfaction furniture", "property management furniture quality", "apartment furniture ROI"],
+        "cta": "Explore our tenant satisfaction furniture solutions",
+        "business_impact": "Reduces tenant turnover costs by 25%"
+      },
+      {
+        "article_id": "prop_durable_001",
+        "title": "Turnover-Proof Furniture: Durability Solutions for Rental Properties",
+        "problems_addressed": ["prop_002", "prop_004"],
+        "pain_level": "8",
+        "word_count": "600-650",
+        "wayfair_solutions": ["turnover_resistant_furniture", "durability_testing"],
+        "key_takeaways": [
+          "Turnover-resistant furniture reduces replacement frequency",
+          "Durability testing ensures long-term performance",
+          "Quick refurbishment between tenants",
+          "Maintenance cost reduction through quality selection"
+        ],
+        "seo_keywords": ["durable rental property furniture", "turnover resistant furniture", "property management durability"],
+        "cta": "Request durability specifications for rental properties",
+        "business_impact": "Reduces furniture replacement costs by 50%"
+      }
+    ],
+    "content_pillars": {
+      "tenant_satisfaction": {
+        "focus": "Quality furniture, comfort optimization, resident happiness",
+        "article_count": 6,
+        "example_titles": [
+          "Furniture Quality Impact on Lease Renewal Rates",
+          "Creating Attractive Living Spaces on Property Management Budgets",
+          "Tenant Feedback: What Residents Really Want in Furniture"
+        ]
+      },
+      "durability_maintenance": {
+        "focus": "Long-lasting furniture, maintenance strategies, lifecycle optimization",
+        "article_count": 5,
+        "example_titles": [
+          "Maintenance-Free Furniture: Reducing Property Management Workload",
+          "Stain-Resistant Solutions for High-Turnover Properties",
+          "Warranty Optimization for Rental Property Furniture"
+        ]
+      },
+      "cost_optimization": {
+        "focus": "Budget management, bulk purchasing, ROI analysis",
+        "article_count": 4,
+        "example_titles": [
+          "Bulk Purchasing Strategies for Property Management Companies",
+          "Cost-Per-Unit Analysis: Furniture Investment Optimization",
+          "Budget Planning for Multi-Property Furniture Needs"
+        ]
+      }
+    },
+    "success_metrics": {
+      "tenant_satisfaction": "40% increase in satisfaction scores",
+      "cost_reduction": "50% reduction in furniture replacement costs",
+      "turnover_reduction": "25% decrease in tenant turnover"
+    }
+  }
+} 

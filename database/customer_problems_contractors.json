@@ -1,0 +1,227 @@
+{
+  "segment": "contractors",
+  "segment_description": "General contractors, specialty contractors, and construction firms purchasing furniture and fixtures for commercial projects",
+  "research_date": "2024-12-28",
+  "problems": [
+    {
+      "id": "contractor_001",
+      "title": "Project Timeline Delays Affecting Furniture Delivery Schedules",
+      "description": "Construction project delays cause furniture delivery schedules to be pushed back, leading to storage costs, damaged items, and rushed installations",
+      "pain_level": 9,
+      "frequency": "Very High",
+      "impact_areas": ["Project completion", "Cost overruns", "Client satisfaction", "Storage logistics"],
+      "current_solutions": ["Flexible delivery scheduling", "Third-party storage", "Just-in-time ordering"],
+      "solution_gaps": ["Limited delivery flexibility", "High storage costs", "Poor communication between vendors"],
+      "wayfair_opportunity": "Flexible delivery scheduling, storage solutions, project management tools"
+    },
+    {
+      "id": "contractor_002", 
+      "title": "Bulk Pricing Negotiations for Large Projects",
+      "description": "Difficulty securing competitive bulk pricing for large furniture orders, impacting project profitability and competitiveness",
+      "pain_level": 8,
+      "frequency": "High",
+      "impact_areas": ["Profit margins", "Bid competitiveness", "Client relationships", "Cash flow"],
+      "current_solutions": ["Direct manufacturer negotiation", "Trade accounts", "Volume purchasing agreements"],
+      "solution_gaps": ["Limited negotiating power", "Complex pricing structures", "Inconsistent volume discounts"],
+      "wayfair_opportunity": "Transparent volume pricing, trade discount programs, bulk order management"
+    },
+    {
+      "id": "contractor_003",
+      "title": "Damage During Construction and Installation",
+      "description": "Furniture gets damaged during construction activities or installation process, requiring replacements and causing project delays",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Project timeline", "Additional costs", "Quality control", "Client relationships"],
+      "current_solutions": ["Protective covering", "Staged delivery", "Insurance claims"],
+      "solution_gaps": ["Inadequate protection methods", "Complex insurance processes", "Limited replacement options"],
+      "wayfair_opportunity": "Durable construction-grade furniture, protection services, quick replacement programs"
+    },
+    {
+      "id": "contractor_004",
+      "title": "Coordinating Multiple Vendor Deliveries",
+      "description": "Managing deliveries from multiple furniture vendors creates scheduling conflicts and site congestion",
+      "pain_level": 8,
+      "frequency": "Very High",
+      "impact_areas": ["Site efficiency", "Installation timeline", "Vendor relationships", "Project coordination"],
+      "current_solutions": ["Delivery scheduling software", "Dedicated receiving areas", "Vendor communication"],
+      "solution_gaps": ["Poor vendor coordination", "Limited scheduling flexibility", "Communication breakdowns"],
+      "wayfair_opportunity": "Consolidated delivery services, project management platform, vendor coordination tools"
+    },
+    {
+      "id": "contractor_005",
+      "title": "Limited Access to Trade-Only Products and Pricing",
+      "description": "Restricted access to commercial-grade products and trade pricing affecting project specifications and competitiveness",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Product selection", "Profit margins", "Bid competitiveness", "Client satisfaction"],
+      "current_solutions": ["Trade memberships", "Dealer relationships", "Direct manufacturer accounts"],
+      "solution_gaps": ["Complex qualification processes", "Limited product access", "Inconsistent trade benefits"],
+      "wayfair_opportunity": "Streamlined trade account access, commercial product lines, contractor-specific pricing"
+    },
+    {
+      "id": "contractor_006",
+      "title": "Cash Flow Impact from Large Furniture Purchases",
+      "description": "Large upfront furniture costs strain cash flow, especially when payment terms don't align with project billing cycles",
+      "pain_level": 8,
+      "frequency": "High",
+      "impact_areas": ["Cash flow", "Project financing", "Growth capability", "Vendor relationships"],
+      "current_solutions": ["Net payment terms", "Progress billing", "Credit lines"],
+      "solution_gaps": ["Limited payment flexibility", "Poor terms alignment", "Credit requirements"],
+      "wayfair_opportunity": "Flexible payment terms, progress-based billing, contractor financing options"
+    },
+    {
+      "id": "contractor_007",
+      "title": "Furniture Specification Changes During Construction",
+      "description": "Client-requested changes to furniture specifications mid-project create ordering delays and cost overruns",
+      "pain_level": 6,
+      "frequency": "Medium",
+      "impact_areas": ["Project timeline", "Cost management", "Client relationships", "Vendor coordination"],
+      "current_solutions": ["Change order processes", "Flexible ordering", "Client education"],
+      "solution_gaps": ["Limited modification options", "Costly change processes", "Poor client communication"],
+      "wayfair_opportunity": "Flexible ordering platform, change management tools, visual specification tools"
+    },
+    {
+      "id": "contractor_008",
+      "title": "Quality Control for Large Quantity Orders",
+      "description": "Ensuring consistent quality across large furniture orders without ability to inspect every piece before installation",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Project quality", "Client satisfaction", "Reputation", "Rework costs"],
+      "current_solutions": ["Sample approvals", "Quality inspections", "Vendor guarantees"],
+      "solution_gaps": ["Limited inspection capabilities", "Inconsistent quality control", "Poor defect handling"],
+      "wayfair_opportunity": "Quality assurance programs, pre-delivery inspection, defect replacement guarantees"
+    },
+    {
+      "id": "contractor_009",
+      "title": "Storage and Staging Space Limitations",
+      "description": "Limited on-site storage for furniture creates timing constraints and increases damage risk",
+      "pain_level": 6,
+      "frequency": "High",
+      "impact_areas": ["Site logistics", "Project timeline", "Storage costs", "Damage risk"],
+      "current_solutions": ["Off-site storage", "Just-in-time delivery", "Staged installations"],
+      "solution_gaps": ["Limited storage options", "High storage costs", "Poor logistics coordination"],
+      "wayfair_opportunity": "Storage services, flexible delivery timing, staging area solutions"
+    },
+    {
+      "id": "contractor_010",
+      "title": "Installation Coordination and Labor Costs",
+      "description": "Coordinating furniture installation with other trades and managing labor costs for complex installations",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Installation timeline", "Labor costs", "Trade coordination", "Project completion"],
+      "current_solutions": ["Installation crews", "Trade scheduling", "Assembly services"],
+      "solution_gaps": ["Limited installation options", "High labor costs", "Poor trade coordination"],
+      "wayfair_opportunity": "Installation services, assembly teams, trade coordination platform"
+    },
+    {
+      "id": "contractor_011",
+      "title": "Warranty and Service Issues Post-Installation",
+      "description": "Managing furniture warranties and service issues after project completion and handover to client",
+      "pain_level": 5,
+      "frequency": "Medium",
+      "impact_areas": ["Client relationships", "Service costs", "Reputation", "Time management"],
+      "current_solutions": ["Warranty management", "Service partnerships", "Client handover"],
+      "solution_gaps": ["Complex warranty processes", "Limited service options", "Poor client communication"],
+      "wayfair_opportunity": "Streamlined warranty management, service network, client support tools"
+    },
+    {
+      "id": "contractor_012",
+      "title": "Meeting Sustainability and Certification Requirements",
+      "description": "Sourcing furniture that meets green building standards and sustainability certifications for projects",
+      "pain_level": 6,
+      "frequency": "Medium",
+      "impact_areas": ["Project compliance", "Certification costs", "Product selection", "Client satisfaction"],
+      "current_solutions": ["Certified product lines", "Sustainability documentation", "Green vendor partnerships"],
+      "solution_gaps": ["Limited certified options", "Complex documentation", "Higher costs"],
+      "wayfair_opportunity": "Sustainability-certified products, documentation support, green building compliance"
+    },
+    {
+      "id": "contractor_013",
+      "title": "Fire Safety and Building Code Compliance",
+      "description": "Ensuring all furniture meets fire safety standards and building codes for commercial installations",
+      "pain_level": 8,
+      "frequency": "Very High",
+      "impact_areas": ["Code compliance", "Project approval", "Liability", "Installation safety"],
+      "current_solutions": ["Code-compliant products", "Fire testing documentation", "Compliance verification"],
+      "solution_gaps": ["Complex compliance requirements", "Limited documentation", "Verification challenges"],
+      "wayfair_opportunity": "Pre-verified compliant products, documentation package, compliance support"
+    },
+    {
+      "id": "contractor_014",
+      "title": "Accessibility (ADA) Compliance Requirements",
+      "description": "Selecting and installing furniture that meets ADA accessibility requirements for commercial spaces",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Legal compliance", "Project approval", "User accessibility", "Liability"],
+      "current_solutions": ["ADA-compliant products", "Accessibility consulting", "Compliance documentation"],
+      "solution_gaps": ["Limited ADA options", "Complex requirements", "Costly compliance"],
+      "wayfair_opportunity": "ADA-compliant product lines, accessibility guidance, compliance verification"
+    },
+    {
+      "id": "contractor_015",
+      "title": "Budget Overruns Due to Specification Changes",
+      "description": "Furniture costs exceeding budgets due to specification creep or inadequate initial budgeting",
+      "pain_level": 7,
+      "frequency": "High",
+      "impact_areas": ["Project profitability", "Client relationships", "Cash flow", "Scope management"],
+      "current_solutions": ["Detailed specifications", "Budget controls", "Client approval processes"],
+      "solution_gaps": ["Poor initial budgeting", "Specification creep", "Limited cost control"],
+      "wayfair_opportunity": "Budget management tools, specification control, cost tracking platform"
+    },
+    {
+      "id": "contractor_016",
+      "title": "Technology Integration in Modern Workplace Furniture",
+      "description": "Incorporating technology features and power/data connectivity in furniture for modern workplaces",
+      "pain_level": 6,
+      "frequency": "Medium",
+      "impact_areas": ["Technology integration", "User functionality", "Installation complexity", "Future-proofing"],
+      "current_solutions": ["Tech-enabled furniture", "Electrical coordination", "IT partnerships"],
+      "solution_gaps": ["Limited tech options", "Complex installation", "Rapid technology changes"],
+      "wayfair_opportunity": "Tech-integrated furniture lines, installation support, future-ready solutions"
+    },
+    {
+      "id": "contractor_017",
+      "title": "Matching Furniture Aesthetics with Architectural Design",
+      "description": "Selecting furniture that complements and enhances the architectural design vision of commercial spaces",
+      "pain_level": 5,
+      "frequency": "High",
+      "impact_areas": ["Design cohesion", "Client satisfaction", "Project aesthetics", "Design approval"],
+      "current_solutions": ["Design consultation", "Sample coordination", "Architect collaboration"],
+      "solution_gaps": ["Limited design options", "Poor visualization tools", "Communication challenges"],
+      "wayfair_opportunity": "Design consultation services, visualization tools, architect collaboration platform"
+    },
+    {
+      "id": "contractor_018",
+      "title": "International Projects and Shipping Complexities",
+      "description": "Managing furniture procurement for international projects with complex shipping, customs, and regulatory requirements",
+      "pain_level": 8,
+      "frequency": "Low",
+      "impact_areas": ["Project timeline", "Shipping costs", "Regulatory compliance", "Quality control"],
+      "current_solutions": ["International shipping", "Customs brokers", "Local partnerships"],
+      "solution_gaps": ["Complex logistics", "High shipping costs", "Regulatory challenges"],
+      "wayfair_opportunity": "International shipping services, customs support, global logistics network"
+    },
+    {
+      "id": "contractor_019",
+      "title": "Competition from Online Retailers and Direct Sales",
+      "description": "Competing with clients who can purchase furniture directly online, reducing contractor value-add and margins",
+      "pain_level": 6,
+      "frequency": "High",
+      "impact_areas": ["Competitive position", "Value proposition", "Profit margins", "Client relationships"],
+      "current_solutions": ["Value-added services", "Professional expertise", "Project management"],
+      "solution_gaps": ["Limited differentiation", "Price competition", "Reduced margins"],
+      "wayfair_opportunity": "Contractor-exclusive services, professional tools, value-added programs"
+    },
+    {
+      "id": "contractor_020",
+      "title": "Seasonal Demand Fluctuations and Inventory Planning",
+      "description": "Managing furniture procurement around seasonal construction patterns and demand fluctuations",
+      "pain_level": 5,
+      "frequency": "Medium",
+      "impact_areas": ["Inventory management", "Cash flow", "Planning accuracy", "Vendor relationships"],
+      "current_solutions": ["Seasonal planning", "Inventory forecasting", "Flexible ordering"],
+      "solution_gaps": ["Poor demand forecasting", "Limited flexibility", "Inventory carrying costs"],
+      "wayfair_opportunity": "Demand forecasting tools, flexible inventory programs, seasonal planning support"
+    }
+  ]
+} 

@@ -1,0 +1,41 @@
+{
+  "blog_posts": [],
+  "metadata": {
+    "total_posts": 0,
+    "target_total": 300,
+    "posts_by_segment": {
+      "interior_designers": 0,
+      "contractors": 0,
+      "office_procurement": 0,
+      "accommodations": 0,
+      "education": 0,
+      "foodservice": 0,
+      "property_management": 0
+    },
+    "content_types": {
+      "informative": 0,
+      "helpful": 0,
+      "transactional": 0
+    }
+  },
+  "schema": {
+    "id": "unique identifier",
+    "title": "blog post title",
+    "slug": "url-friendly version of title",
+    "customer_segment": "target customer segment id",
+    "content_type": "informative|helpful|transactional",
+    "target_keywords": ["array of keywords"],
+    "summary": "brief description of article content",
+    "word_count_target": "300-700 words",
+    "internal_links": ["array of related article ids"],
+    "external_links": ["array of wayfair professional urls"],
+    "problems_addressed": ["array of customer problem ids"],
+    "solutions_featured": ["array of solution ids"],
+    "content": "full article content",
+    "image_url": "path to featured image",
+    "meta_description": "SEO meta description",
+    "created_date": "ISO date",
+    "last_updated": "ISO date",
+    "status": "draft|review|published"
+  }
+} 

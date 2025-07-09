@@ -1,0 +1,84 @@
+{
+  "office_procurement_summaries": {
+    "segment": "office_procurement",
+    "total_articles": 25,
+    "summary_date": "2024-12-28",
+    "content_distribution": {
+      "hybrid_work_solutions": 7,
+      "ergonomics_wellness": 6,
+      "budget_optimization": 5,
+      "compliance_requirements": 4,
+      "space_optimization": 3
+    },
+    "high_impact_articles": [
+      {
+        "article_id": "off_hybrid_001", 
+        "title": "Hybrid Work Revolution: Furniture Solutions for the Future Office",
+        "problems_addressed": ["office_001", "office_007"],
+        "pain_level": "8-9",
+        "word_count": "650-700",
+        "wayfair_solutions": ["modular_workstations", "flexible_furniture_systems"],
+        "key_takeaways": [
+          "Modular workstations increase reconfiguration speed by 3x",
+          "Hybrid-optimized furniture reduces space requirements by 30%",
+          "Employee satisfaction increases with flexible workspace options",
+          "Future-proofing workspace investments through adaptability"
+        ],
+        "seo_keywords": ["hybrid work furniture", "flexible office furniture", "modular workstations"],
+        "cta": "Request a hybrid workspace consultation",
+        "business_impact": "Addresses $2.3B hybrid work furniture market"
+      },
+      {
+        "article_id": "off_ergo_001",
+        "title": "ROI of Ergonomics: How Furniture Investments Reduce Healthcare Costs",
+        "problems_addressed": ["office_003"],
+        "pain_level": "8",
+        "word_count": "650-700",
+        "wayfair_solutions": ["ergonomic_office_furniture", "wellness_assessment"],
+        "key_takeaways": [
+          "Ergonomic furniture reduces injury claims by 40%",
+          "Healthcare cost savings average $3,000-5,000 per employee",
+          "Employee satisfaction increases with wellness focus",
+          "Compliance benefits reduce liability risks"
+        ],
+        "seo_keywords": ["ergonomic office furniture ROI", "workplace wellness furniture", "office ergonomics"],
+        "cta": "Schedule an ergonomic assessment",
+        "business_impact": "Healthcare cost savings offset furniture investment"
+      }
+    ],
+    "content_pillars": {
+      "hybrid_work_solutions": {
+        "focus": "Flexible workspace design, modular furniture, future-proofing",
+        "article_count": 7,
+        "example_titles": [
+          "Space Utilization Optimization for Hybrid Work Models",
+          "Hot-Desking Furniture: Creating Seamless Workspace Transitions",
+          "Technology Integration in Modern Office Furniture Design"
+        ]
+      },
+      "ergonomics_wellness": {
+        "focus": "Employee health, productivity, compliance requirements",
+        "article_count": 6,
+        "example_titles": [
+          "Standing Desk Implementation: A Step-by-Step Guide",
+          "Workplace Wellness Programs: The Furniture Component",
+          "OSHA Ergonomic Guidelines for Office Environments"
+        ]
+      },
+      "budget_optimization": {
+        "focus": "Cost management, ROI analysis, procurement strategies",
+        "article_count": 5,
+        "example_titles": [
+          "Budget Planning for Office Furniture: Multi-Year Strategies",
+          "Lease vs. Buy: Office Furniture Financial Analysis",
+          "Bulk Procurement Strategies for Multi-Location Offices"
+        ]
+      }
+    },
+    "success_metrics": {
+      "cost_savings": "Average 25% reduction in total cost of ownership",
+      "wellness_impact": "40% reduction in workplace injury claims",
+      "space_efficiency": "30% improvement in space utilization"
+    }
+  }
+} 

@@ -1,0 +1,24 @@
+{
+  "blog_ideas_accommodations": [
+    {"id": "hot_001", "title": "Creating Memorable Guest Room Experiences Through Furniture Design", "content_type": "helpful", "keywords": ["guest room design", "hotel experience", "furniture selection"]},
+    {"id": "hot_002", "title": "Understanding Hotel FF&E Procurement: A Complete Guide", "content_type": "informative", "keywords": ["hotel FF&E", "procurement process", "hospitality furniture"]},
+    {"id": "hot_003", "title": "Best Wayfair Professional Hotel Furniture for Boutique Properties", "content_type": "transactional", "keywords": ["wayfair professional", "boutique hotel", "hotel furniture"]},
+    {"id": "hot_004", "title": "How to Choose Durable Furniture for High-Occupancy Hotels", "content_type": "helpful", "keywords": ["durable hotel furniture", "high occupancy", "commercial grade"]},
+    {"id": "hot_005", "title": "The Economics of Hotel Furniture: Balancing Cost and Quality", "content_type": "informative", "keywords": ["hotel furniture economics", "cost quality balance", "investment planning"]},
+    {"id": "hot_006", "title": "Top Wayfair Professional Lobby Furniture for Hotel Common Areas", "content_type": "transactional", "keywords": ["wayfair professional", "hotel lobby", "common area furniture"]},
+    {"id": "hot_007", "title": "How to Design Hotel Rooms That Feel Like Home", "content_type": "helpful", "keywords": ["hotel room comfort", "residential feel", "guest satisfaction"]},
+    {"id": "hot_008", "title": "Maintenance Best Practices for Hotel Furniture Longevity", "content_type": "helpful", "keywords": ["hotel furniture maintenance", "longevity", "care practices"]},
+    {"id": "hot_009", "title": "Best Wayfair Professional Outdoor Furniture for Hotel Pool Areas", "content_type": "transactional", "keywords": ["wayfair professional", "pool furniture", "outdoor hospitality"]},
+    {"id": "hot_010", "title": "How to Create Consistent Brand Experience Through Furniture Selection", "content_type": "helpful", "keywords": ["brand consistency", "hotel identity", "design standards"]},
+    {"id": "hot_011", "title": "The Impact of Room Design on Hotel Guest Reviews", "content_type": "informative", "keywords": ["room design impact", "guest reviews", "hospitality marketing"]},
+    {"id": "hot_012", "title": "Choosing Easy-to-Clean Furniture for Hotel Housekeeping Efficiency", "content_type": "helpful", "keywords": ["easy clean furniture", "housekeeping efficiency", "maintenance"]},
+    {"id": "hot_013", "title": "Top Wayfair Professional Restaurant Furniture for Hotel Dining", "content_type": "transactional", "keywords": ["wayfair professional", "restaurant furniture", "hotel dining"]},
+    {"id": "hot_014", "title": "How to Design Accessible Hotel Rooms for All Guests", "content_type": "helpful", "keywords": ["accessible hotel rooms", "ADA compliance", "inclusive design"]},
+    {"id": "hot_015", "title": "Sustainable Furniture Options for Eco-Conscious Hotels", "content_type": "informative", "keywords": ["sustainable hotel furniture", "eco-friendly", "green hospitality"]},
+    {"id": "hot_016", "title": "Creating Functional Business Centers in Hotels", "content_type": "helpful", "keywords": ["hotel business center", "work spaces", "business travel"]},
+    {"id": "hot_017", "title": "Best Wayfair Professional Bathroom Furniture for Hotel Suites", "content_type": "transactional", "keywords": ["wayfair professional", "bathroom furniture", "hotel suites"]},
+    {"id": "hot_018", "title": "How to Plan Hotel Furniture Renovation Projects", "content_type": "helpful", "keywords": ["hotel renovation", "furniture replacement", "project planning"]},
+    {"id": "hot_019", "title": "The Role of Color Psychology in Hotel Interior Design", "content_type": "informative", "keywords": ["color psychology", "hotel design", "guest psychology"]},
+    {"id": "hot_020", "title": "Wayfair Professional's Best Hotel Bed Collections for Guest Comfort", "content_type": "transactional", "keywords": ["wayfair professional", "hotel beds", "guest comfort"]}
+  ]
+} 

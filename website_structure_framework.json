@@ -1,0 +1,251 @@
+{
+  "wayfair_professional_blog_website": {
+    "project_overview": {
+      "total_articles": 300,
+      "primary_purpose": "Lead generation and education for Wayfair Professional B2B customers",
+      "target_audience": "7 customer segments with focus on Interior Designers",
+      "key_functionality": ["search", "filtering", "resource downloads", "consultation booking"],
+      "success_metrics": ["organic traffic growth", "lead generation", "consultation bookings", "content engagement"]
+    },
+    "site_architecture": {
+      "homepage": {
+        "purpose": "Central hub showcasing value and directing traffic to relevant content",
+        "key_elements": [
+          "Hero section with value proposition",
+          "Customer segment navigation",
+          "Featured Tier 1 articles",
+          "Search functionality",
+          "Lead capture elements",
+          "Social proof and testimonials"
+        ],
+        "conversion_goals": ["consultation bookings", "content engagement", "email signups"]
+      },
+      "main_navigation": {
+        "primary_categories": [
+          {
+            "label": "By Industry",
+            "segments": [
+              "Interior Designers",
+              "Contractors", 
+              "Office Procurement",
+              "Hotels & Accommodations",
+              "Education",
+              "Foodservice",
+              "Property Management"
+            ]
+          },
+          {
+            "label": "By Topic",
+            "categories": [
+              "Cost Optimization",
+              "Space Planning", 
+              "Project Management",
+              "Compliance & Safety",
+              "Workflow Efficiency",
+              "Durability & Maintenance"
+            ]
+          },
+          {
+            "label": "Resources",
+            "items": [
+              "ROI Calculators",
+              "Planning Tools",
+              "Success Stories",
+              "Guides & Checklists",
+              "Industry Reports"
+            ]
+          }
+        ]
+      },
+      "content_organization": {
+        "tier_1_featured_section": {
+          "location": "Homepage prominently + dedicated landing page",
+          "purpose": "Highlight highest-impact content for maximum visibility",
+          "articles": 15,
+          "layout": "Grid with large preview cards showing ROI/savings data"
+        },
+        "segment_hub_pages": {
+          "interior_designers_hub": {
+            "url": "/interior-designers",
+            "articles": 100,
+            "sub_categories": [
+              "Trade Pricing & Savings",
+              "Project Management",
+              "Space Planning",
+              "Client Management", 
+              "Product Sourcing",
+              "Business Growth"
+            ],
+            "special_features": ["trade account signup", "design tools access", "project calculator"]
+          },
+          "contractors_hub": {
+            "url": "/contractors",
+            "articles": 25,
+            "sub_categories": [
+              "Project Delivery",
+              "Bulk Pricing",
+              "Compliance",
+              "Timeline Management"
+            ],
+            "special_features": ["project consultation booking", "volume pricing application"]
+          },
+          "office_procurement_hub": {
+            "url": "/office-procurement",
+            "articles": 25,
+            "sub_categories": [
+              "Hybrid Work Solutions",
+              "Ergonomics & Wellness",
+              "Budget Optimization",
+              "Space Efficiency"
+            ],
+            "special_features": ["workspace analysis", "ROI calculator", "bulk ordering"]
+          }
+        }
+      },
+      "search_functionality": {
+        "search_types": [
+          {
+            "type": "primary_search",
+            "location": "Header and homepage",
+            "functionality": "Full-text search across all articles",
+            "filters": ["customer segment", "topic category", "content type", "publication date"]
+          },
+          {
+            "type": "smart_filtering",
+            "functionality": "Dynamic filtering by pain points, solutions, ROI range",
+            "filters": ["problem type", "solution category", "business impact", "implementation complexity"]
+          },
+          {
+            "type": "recommendation_engine",
+            "functionality": "Suggest related articles based on reading behavior",
+            "features": ["similar content", "next steps", "complementary topics"]
+          }
+        ]
+      }
+    },
+    "user_experience_design": {
+      "mobile_optimization": {
+        "responsive_design": "Mobile-first approach with touch-friendly navigation",
+        "performance": "Sub-2 second load times",
+        "readability": "Optimized typography and spacing for mobile reading",
+        "navigation": "Collapsible menus and sticky search"
+      },
+      "content_discovery": {
+        "homepage_pathways": [
+          "Customer segment selection → Relevant article lists",
+          "Problem-based search → Solution articles",
+          "Topic browsing → Related content clusters"
+        ],
+        "internal_linking": [
+          "Related articles sidebar",
+          "Topic cluster connections", 
+          "Cross-segment recommendations",
+          "Resource and tool integration"
+        ]
+      },
+      "conversion_optimization": {
+        "lead_capture_points": [
+          "Article exit-intent popups",
+          "Mid-article content upgrades",
+          "Resource download gates",
+          "Consultation booking CTAs"
+        ],
+        "trust_signals": [
+          "Customer testimonials",
+          "Success story metrics",
+          "Industry certifications",
+          "Company information and expertise"
+        ]
+      }
+    },
+    "technical_implementation": {
+      "platform_requirements": {
+        "cms": "WordPress or Webflow for content management ease",
+        "hosting": "Railway (as specified) with CDN for performance",
+        "search": "Elasticsearch or Algolia for advanced search functionality",
+        "analytics": "Google Analytics 4 + heatmap tracking"
+      },
+      "seo_optimization": {
+        "technical_seo": [
+          "XML sitemaps with priority structure",
+          "Schema markup for articles and organizations",
+          "Clean URL structure (/segment/topic/article-title)",
+          "Page speed optimization under 2 seconds"
+        ],
+        "content_seo": [
+          "Topic cluster internal linking",
+          "Keyword-optimized URL structures",
+          "Meta descriptions and titles optimization",
+          "Image alt text and optimization"
+        ]
+      },
+      "performance_monitoring": {
+        "key_metrics": [
+          "Organic search traffic growth",
+          "Conversion rates by segment",
+          "Content engagement (time on page, scroll depth)",
+          "Lead generation and attribution"
+        ],
+        "tracking_setup": [
+          "Goal conversion tracking",
+          "UTM campaign tracking",
+          "A/B testing framework",
+          "Customer journey mapping"
+        ]
+      }
+    },
+    "content_management": {
+      "editorial_calendar": {
+        "publication_schedule": "5 articles per week during initial rollout",
+        "content_updates": "Monthly optimization based on performance data",
+        "seasonal_content": "Industry-specific timing (budget cycles, construction seasons)"
+      },
+      "content_governance": {
+        "quality_standards": "Review framework from quality_review_framework.json",
+        "update_procedures": "Quarterly content refresh for statistics and market data",
+        "version_control": "Track content changes and performance impact"
+      }
+    },
+    "wayfair_professional_integration": {
+      "account_connection": {
+        "trade_account_signup": "Integrated applications throughout site",
+        "pricing_access": "Gated content for account holders",
+        "consultation_booking": "Direct scheduling integration"
+      },
+      "product_integration": {
+        "contextual_product_links": "Relevant furniture solutions within articles",
+        "solution_showcases": "Visual product demonstrations",
+        "calculator_tools": "ROI and space planning calculators"
+      }
+    },
+    "launch_strategy": {
+      "phase_1_foundation": {
+        "timeline": "Week 1-2",
+        "deliverables": [
+          "Homepage and navigation structure",
+          "Tier 1 article publication",
+          "Basic search functionality",
+          "Mobile responsive design"
+        ]
+      },
+      "phase_2_content_expansion": {
+        "timeline": "Week 3-8", 
+        "deliverables": [
+          "Interior designer hub completion",
+          "Secondary segment hubs",
+          "Advanced search and filtering",
+          "Lead capture optimization"
+        ]
+      },
+      "phase_3_optimization": {
+        "timeline": "Week 9-12",
+        "deliverables": [
+          "All 300 articles published",
+          "Performance optimization",
+          "Advanced analytics setup", 
+          "A/B testing implementation"
+        ]
+      }
+    }
+  }
+} 

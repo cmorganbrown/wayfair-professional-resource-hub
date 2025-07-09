@@ -1,0 +1,24 @@
+{
+  "blog_ideas_contractors": [
+    {"id": "con_001", "title": "Cost-Effective Furniture Solutions for Multi-Unit Construction Projects", "content_type": "helpful", "keywords": ["cost-effective furniture", "multi-unit construction", "bulk pricing"]},
+    {"id": "con_002", "title": "How to Spec Commercial-Grade Furniture for Residential Projects", "content_type": "informative", "keywords": ["commercial-grade furniture", "residential spec", "durability standards"]},
+    {"id": "con_003", "title": "Best Wayfair Professional Bulk Furniture Packages for Contractors", "content_type": "transactional", "keywords": ["wayfair professional", "bulk furniture", "contractor packages"]},
+    {"id": "con_004", "title": "Installation Best Practices for Fixed vs. Moveable Furniture", "content_type": "helpful", "keywords": ["furniture installation", "fixed furniture", "moveable furniture"]},
+    {"id": "con_005", "title": "Understanding Furniture Lead Times in Construction Schedules", "content_type": "informative", "keywords": ["furniture lead times", "construction schedule", "project planning"]},
+    {"id": "con_006", "title": "Wayfair Professional's Most Durable Furniture for High-Traffic Areas", "content_type": "transactional", "keywords": ["wayfair professional", "durable furniture", "high-traffic"]},
+    {"id": "con_007", "title": "How to Coordinate Furniture Delivery with Construction Timelines", "content_type": "helpful", "keywords": ["furniture delivery", "construction timeline", "project coordination"]},
+    {"id": "con_008", "title": "Budget-Friendly Furniture Packages for Apartment Complexes", "content_type": "helpful", "keywords": ["budget furniture", "apartment complex", "multi-family housing"]},
+    {"id": "con_009", "title": "Top Wayfair Professional Furniture for Senior Living Projects", "content_type": "transactional", "keywords": ["wayfair professional", "senior living", "accessible furniture"]},
+    {"id": "con_010", "title": "How to Handle Furniture Damage During Construction", "content_type": "helpful", "keywords": ["furniture damage", "construction protection", "damage prevention"]},
+    {"id": "con_011", "title": "Understanding Commercial Furniture Warranties and Guarantees", "content_type": "informative", "keywords": ["furniture warranties", "commercial guarantees", "quality assurance"]},
+    {"id": "con_012", "title": "Best Practices for Furniture Storage on Construction Sites", "content_type": "helpful", "keywords": ["furniture storage", "construction site", "protection methods"]},
+    {"id": "con_013", "title": "Wayfair Professional's Best Modular Furniture for Flexible Spaces", "content_type": "transactional", "keywords": ["wayfair professional", "modular furniture", "flexible spaces"]},
+    {"id": "con_014", "title": "How to Calculate Furniture Costs in Construction Bids", "content_type": "helpful", "keywords": ["furniture costs", "construction bids", "cost estimation"]},
+    {"id": "con_015", "title": "Fire Safety Requirements for Commercial Furniture Installations", "content_type": "informative", "keywords": ["fire safety", "commercial furniture", "safety requirements"]},
+    {"id": "con_016", "title": "Streamlining Furniture Procurement for Multiple Project Sites", "content_type": "helpful", "keywords": ["furniture procurement", "multiple sites", "project management"]},
+    {"id": "con_017", "title": "Top Wayfair Professional Outdoor Furniture for Commercial Properties", "content_type": "transactional", "keywords": ["wayfair professional", "outdoor furniture", "commercial properties"]},
+    {"id": "con_018", "title": "How to Choose Furniture That Meets ADA Compliance Standards", "content_type": "helpful", "keywords": ["ADA compliance", "accessible furniture", "code requirements"]},
+    {"id": "con_019", "title": "Understanding Furniture Quality Standards for Commercial Use", "content_type": "informative", "keywords": ["furniture quality", "commercial standards", "ANSI/BIFMA"]},
+    {"id": "con_020", "title": "Best Wayfair Professional Storage Solutions for Construction Projects", "content_type": "transactional", "keywords": ["wayfair professional", "storage solutions", "construction organization"]}
+  ]
+} 

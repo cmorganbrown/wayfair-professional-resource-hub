@@ -1,0 +1,49 @@
+{
+  "name": "wayfair-professional-resource-hub",
+  "version": "1.0.0",
+  "description": "B2B content hub for Wayfair Professional with searchable articles and resources for commercial furniture procurement",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Build complete - static files ready'",
+    "test": "echo 'No tests specified yet'"
+  },
+  "keywords": [
+    "wayfair",
+    "b2b",
+    "commercial-furniture",
+    "interior-design",
+    "procurement",
+    "resource-hub"
+  ],
+  "author": "Wayfair Professional",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmorganbrown/wayfair-professional-resource-hub.git"
+  },
+  "homepage": "https://wayfair-professional-resource-hub-production.up.railway.app",
+  "railway": {
+    "build": {
+      "builder": "nixpacks"
+    },
+    "deploy": {
+      "startCommand": "npm start",
+      "restartPolicyType": "ON_FAILURE"
+    }
+  }
+} 

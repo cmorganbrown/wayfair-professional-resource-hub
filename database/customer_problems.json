@@ -1,0 +1,22 @@
+{
+  "customer_problems": [],
+  "metadata": {
+    "problems_per_segment": 20,
+    "total_segments": 7,
+    "target_total_problems": 140
+  },
+  "schema": {
+    "id": "unique problem identifier", 
+    "customer_segment": "customer segment id",
+    "problem_title": "short descriptive title",
+    "problem_description": "detailed description of the problem",
+    "pain_level": "high|medium|low",
+    "frequency": "daily|weekly|monthly|project-based",
+    "impact_areas": ["cost", "time", "quality", "compliance", "satisfaction"],
+    "current_solutions": ["existing solutions customers use"],
+    "solution_gaps": ["what's missing in current solutions"],
+    "related_problems": ["array of related problem ids"],
+    "source": "research source or methodology",
+    "priority_score": "1-10 scale"
+  }
+} 

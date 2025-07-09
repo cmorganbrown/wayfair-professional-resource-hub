@@ -1,0 +1,24 @@
+{
+  "blog_ideas_education": [
+    {"id": "edu_001", "title": "Creating Flexible Learning Environments with Adaptable Furniture", "content_type": "helpful", "keywords": ["flexible learning", "adaptable furniture", "classroom design"]},
+    {"id": "edu_002", "title": "Understanding Safety Standards for Educational Furniture", "content_type": "informative", "keywords": ["educational furniture safety", "student safety", "compliance standards"]},
+    {"id": "edu_003", "title": "Best Wayfair Professional Classroom Furniture for K-12 Schools", "content_type": "transactional", "keywords": ["wayfair professional", "classroom furniture", "K-12 schools"]},
+    {"id": "edu_004", "title": "How to Design Age-Appropriate Learning Spaces for Different Grade Levels", "content_type": "helpful", "keywords": ["age-appropriate design", "grade levels", "developmental needs"]},
+    {"id": "edu_005", "title": "Budget-Friendly Furniture Solutions for Educational Institutions", "content_type": "helpful", "keywords": ["budget furniture", "educational budgets", "cost-effective solutions"]},
+    {"id": "edu_006", "title": "Top Wayfair Professional Library Furniture for School Media Centers", "content_type": "transactional", "keywords": ["wayfair professional", "library furniture", "media center"]},
+    {"id": "edu_007", "title": "How to Choose Durable Furniture for High-Use Classrooms", "content_type": "helpful", "keywords": ["durable classroom furniture", "high-use", "heavy duty"]},
+    {"id": "edu_008", "title": "Creating Inclusive Classrooms with Universal Design Furniture", "content_type": "helpful", "keywords": ["inclusive classrooms", "universal design", "accessibility"]},
+    {"id": "edu_009", "title": "Best Wayfair Professional STEM Lab Furniture for Science Education", "content_type": "transactional", "keywords": ["wayfair professional", "STEM lab", "science furniture"]},
+    {"id": "edu_010", "title": "How to Design Comfortable Reading Areas in Schools", "content_type": "helpful", "keywords": ["reading areas", "library design", "comfortable seating"]},
+    {"id": "edu_011", "title": "The Impact of Classroom Design on Student Learning Outcomes", "content_type": "informative", "keywords": ["classroom design impact", "learning outcomes", "educational research"]},
+    {"id": "edu_012", "title": "Managing Furniture Procurement for Multi-Campus School Districts", "content_type": "helpful", "keywords": ["multi-campus procurement", "school districts", "standardization"]},
+    {"id": "edu_013", "title": "Top Wayfair Professional Cafeteria Furniture for School Dining", "content_type": "transactional", "keywords": ["wayfair professional", "cafeteria furniture", "school dining"]},
+    {"id": "edu_014", "title": "How to Create Collaborative Learning Spaces in Schools", "content_type": "helpful", "keywords": ["collaborative learning", "group work", "team spaces"]},
+    {"id": "edu_015", "title": "Understanding Ergonomics for Student Furniture and Seating", "content_type": "informative", "keywords": ["student ergonomics", "healthy seating", "posture support"]},
+    {"id": "edu_016", "title": "Designing Sensory-Friendly Classrooms for Special Needs Students", "content_type": "helpful", "keywords": ["sensory-friendly", "special needs", "therapeutic furniture"]},
+    {"id": "edu_017", "title": "Best Wayfair Professional Outdoor Furniture for School Playgrounds", "content_type": "transactional", "keywords": ["wayfair professional", "playground furniture", "outdoor education"]},
+    {"id": "edu_018", "title": "How to Plan Furniture Replacement Cycles for Educational Institutions", "content_type": "helpful", "keywords": ["furniture replacement", "lifecycle planning", "budget planning"]},
+    {"id": "edu_019", "title": "Technology Integration in Modern Classroom Furniture Design", "content_type": "informative", "keywords": ["technology furniture", "digital learning", "smart classrooms"]},
+    {"id": "edu_020", "title": "Wayfair Professional's Best Administrative Office Furniture for Schools", "content_type": "transactional", "keywords": ["wayfair professional", "school office", "administrative furniture"]}
+  ]
+} 

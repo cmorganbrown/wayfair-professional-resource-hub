@@ -1,0 +1,204 @@
+{
+  "customer_problems_interior_designers": [
+    {
+      "id": "id_prob_001",
+      "problem_title": "Unpredictable Furniture Lead Times",
+      "problem_description": "Clients expect quick turnarounds, but furniture delivery can take 12-20 weeks or more, causing project delays and client frustration.",
+      "pain_level": "high",
+      "frequency": "daily",
+      "impact_areas": ["time", "client satisfaction", "project planning"],
+      "current_solutions": ["Local vendors", "Ready-to-ship items", "Over-ordering"],
+      "solution_gaps": ["Reliable lead time predictions", "Expedited shipping options"]
+    },
+    {
+      "id": "id_prob_002", 
+      "problem_title": "Limited Access to Trade Pricing",
+      "problem_description": "Many furniture suppliers don't offer professional discounts or require high minimum orders, impacting project profitability.",
+      "pain_level": "high",
+      "frequency": "weekly",
+      "impact_areas": ["cost", "profitability"],
+      "current_solutions": ["Retail markup to clients", "Multiple vendor relationships"],
+      "solution_gaps": ["Consistent trade pricing", "Lower minimums"]
+    },
+    {
+      "id": "id_prob_003",
+      "problem_title": "Quality Assessment Without Physical Samples",
+      "problem_description": "Online purchasing makes it difficult to assess furniture quality, leading to client disappointment and returns.",
+      "pain_level": "high",
+      "frequency": "weekly", 
+      "impact_areas": ["quality", "client satisfaction", "cost"],
+      "current_solutions": ["Ordering samples", "Trusted vendor lists"],
+      "solution_gaps": ["Better online quality documentation", "Virtual reality viewing"]
+    },
+    {
+      "id": "id_prob_004",
+      "problem_title": "Client Budget vs. Expectations Mismatch",
+      "problem_description": "Clients often have unrealistic expectations about what quality furniture costs, leading to difficult conversations and compromises.",
+      "pain_level": "medium",
+      "frequency": "weekly",
+      "impact_areas": ["client satisfaction", "profitability"],
+      "current_solutions": ["Budget education", "Alternative options"],
+      "solution_gaps": ["Transparent pricing tools", "Budget-appropriate showcases"]
+    },
+    {
+      "id": "id_prob_005",
+      "problem_title": "Coordinating Multiple Vendor Deliveries",
+      "problem_description": "Managing delivery schedules from different suppliers to complete projects on time is logistically challenging.",
+      "pain_level": "medium",
+      "frequency": "project-based",
+      "impact_areas": ["time", "cost", "coordination"],
+      "current_solutions": ["Project management software", "Dedicated coordinators"],
+      "solution_gaps": ["Integrated delivery scheduling", "Single-source solutions"]
+    },
+    {
+      "id": "id_prob_006",
+      "problem_title": "Lack of Customization Options",
+      "problem_description": "Standard furniture options don't always meet specific design requirements, forcing compromises in the design vision.",
+      "pain_level": "medium",
+      "frequency": "weekly",
+      "impact_areas": ["design quality", "client satisfaction"],
+      "current_solutions": ["Custom furniture makers", "Modification services"],
+      "solution_gaps": ["Mass customization options", "Design flexibility"]
+    },
+    {
+      "id": "id_prob_007",
+      "problem_title": "Furniture Damage During Delivery",
+      "problem_description": "Items arrive damaged, causing project delays and requiring returns/replacements at critical moments.",
+      "pain_level": "high",
+      "frequency": "monthly",
+      "impact_areas": ["time", "cost", "client satisfaction"],
+      "current_solutions": ["Insurance", "Careful vendor selection"],
+      "solution_gaps": ["Better packaging", "White glove delivery standard"]
+    },
+    {
+      "id": "id_prob_008",
+      "problem_title": "Inconsistent Product Photography",
+      "problem_description": "Online product images don't accurately represent colors, textures, or scale, leading to poor purchasing decisions.",
+      "pain_level": "medium",
+      "frequency": "weekly",
+      "impact_areas": ["quality", "client satisfaction"],
+      "current_solutions": ["Physical samples", "Vendor showroom visits"],
+      "solution_gaps": ["Standardized photography", "Color-accurate displays"]
+    },
+    {
+      "id": "id_prob_009",
+      "problem_title": "Limited Sustainable Furniture Options",
+      "problem_description": "Clients increasingly demand eco-friendly options, but sustainable furniture is limited and often more expensive.",
+      "pain_level": "medium",
+      "frequency": "weekly",
+      "impact_areas": ["client satisfaction", "cost"],
+      "current_solutions": ["Specialized eco vendors", "Vintage/antique pieces"],
+      "solution_gaps": ["Mainstream sustainable options", "Competitive pricing"]
+    },
+    {
+      "id": "id_prob_010",
+      "problem_title": "Difficult Return and Exchange Policies",
+      "problem_description": "Many furniture vendors have restrictive return policies, making it risky to order without guarantees of client satisfaction.",
+      "pain_level": "medium",
+      "frequency": "monthly",
+      "impact_areas": ["cost", "risk management"],
+      "current_solutions": ["Client pre-approval", "Insurance"],
+      "solution_gaps": ["Flexible return policies", "Trial periods"]
+    },
+    {
+      "id": "id_prob_011",
+      "problem_title": "Inadequate Customer Service Support",
+      "problem_description": "When issues arise, furniture vendors often lack responsive customer service or dedicated account management.",
+      "pain_level": "medium",
+      "frequency": "monthly",
+      "impact_areas": ["time", "satisfaction"],
+      "current_solutions": ["Preferred vendor relationships", "Direct contacts"],
+      "solution_gaps": ["Dedicated account managers", "24/7 support"]
+    },
+    {
+      "id": "id_prob_012",
+      "problem_title": "Seasonal Availability Issues",
+      "problem_description": "Popular items go out of stock during peak seasons, forcing design changes or significant delays.",
+      "pain_level": "medium",
+      "frequency": "seasonal",
+      "impact_areas": ["design flexibility", "time"],
+      "current_solutions": ["Early ordering", "Alternative selections"],
+      "solution_gaps": ["Better inventory management", "Pre-order options"]
+    },
+    {
+      "id": "id_prob_013",
+      "problem_title": "Technology Integration Challenges",
+      "problem_description": "Clients want smart furniture and technology integration, but options are limited and often problematic.",
+      "pain_level": "low",
+      "frequency": "monthly",
+      "impact_areas": ["design innovation", "client satisfaction"],
+      "current_solutions": ["Separate tech installation", "Tech-integrated vendors"],
+      "solution_gaps": ["Seamless integration", "Reliable smart furniture"]
+    },
+    {
+      "id": "id_prob_014",
+      "problem_title": "Fabric and Finish Matching Across Brands",
+      "problem_description": "Creating cohesive looks across different furniture brands is difficult due to varied color and finish standards.",
+      "pain_level": "medium",
+      "frequency": "project-based",
+      "impact_areas": ["design quality", "coordination"],
+      "current_solutions": ["Single-brand sourcing", "Custom finishing"],
+      "solution_gaps": ["Industry color standards", "Cross-brand coordination"]
+    },
+    {
+      "id": "id_prob_015",
+      "problem_title": "Inadequate Installation Services",
+      "problem_description": "Many furniture suppliers don't provide professional installation, requiring designers to coordinate separate services.",
+      "pain_level": "medium",
+      "frequency": "project-based",
+      "impact_areas": ["time", "coordination", "cost"],
+      "current_solutions": ["Independent installers", "Handyman services"],
+      "solution_gaps": ["Full-service furniture delivery", "Professional installation teams"]
+    },
+    {
+      "id": "id_prob_016",
+      "problem_title": "Limited Size and Scale Options",
+      "problem_description": "Standard furniture sizing doesn't always work for unique spaces, requiring custom solutions that are expensive and time-consuming.",
+      "pain_level": "medium",
+      "frequency": "weekly",
+      "impact_areas": ["design flexibility", "cost"],
+      "current_solutions": ["Custom furniture makers", "Modification services"],
+      "solution_gaps": ["More size variations", "Modular systems"]
+    },
+    {
+      "id": "id_prob_017",
+      "problem_title": "Complicated Procurement Processes",
+      "problem_description": "Multiple forms, approval processes, and payment terms make ordering from some vendors administratively burdensome.",
+      "pain_level": "low",
+      "frequency": "project-based",
+      "impact_areas": ["time", "efficiency"],
+      "current_solutions": ["Streamlined vendor lists", "Administrative assistants"],
+      "solution_gaps": ["Simple ordering platforms", "Standardized processes"]
+    },
+    {
+      "id": "id_prob_018",
+      "problem_title": "Lack of Performance Data",
+      "problem_description": "Limited information about how furniture performs over time in real-world settings makes selection risky.",
+      "pain_level": "medium",
+      "frequency": "weekly",
+      "impact_areas": ["quality", "client satisfaction"],
+      "current_solutions": ["Vendor references", "Personal experience"],
+      "solution_gaps": ["Performance databases", "User reviews"]
+    },
+    {
+      "id": "id_prob_019",
+      "problem_title": "Style Trend Prediction Challenges",
+      "problem_description": "Furniture investments need to remain current for years, but predicting lasting vs. fleeting trends is difficult.",
+      "pain_level": "medium",
+      "frequency": "project-based",
+      "impact_areas": ["design longevity", "client satisfaction"],
+      "current_solutions": ["Classic styles", "Trend research"],
+      "solution_gaps": ["Trend forecasting tools", "Timeless design databases"]
+    },
+    {
+      "id": "id_prob_020",
+      "problem_title": "International Shipping and Customs Issues",
+      "problem_description": "Importing unique furniture pieces involves complex customs, tariffs, and extended shipping times that are difficult to predict.",
+      "pain_level": "high",
+      "frequency": "project-based",
+      "impact_areas": ["cost", "time", "complexity"],
+      "current_solutions": ["Import specialists", "Domestic alternatives"],
+      "solution_gaps": ["Simplified import processes", "Duty calculations"]
+    }
+  ]
+} 

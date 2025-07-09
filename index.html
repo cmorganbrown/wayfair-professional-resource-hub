@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayfair Professional Resource Hub - B2B Furniture & Design Solutions</title>
+    <meta name="description" content="Expert insights and solutions for commercial furniture procurement, space planning, and design. Resources for interior designers, contractors, and facility managers.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo-text">Wayfair Professional</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                        <li><a href="#resources" class="nav-link">Resources</a></li>
+                        <li><a href="#consultation" class="nav-link">Consultation</a></li>
+                        <li><a href="https://www.wayfair.com/professional/" class="nav-link cta-link">Visit Wayfair Professional</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Expert Commercial Design<br>Solutions & Insights</h1>
+                <p class="hero-subtitle">Discover proven strategies, cost-saving solutions, and industry insights to optimize your commercial spaces and procurement processes.</p>
+                
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search by topic, customer type, or solution..." class="search-input">
+                        <button class="search-btn" id="searchBtn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="M21 21l-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="search-filters">
+                        <select id="customerFilter" class="filter-select">
+                            <option value="">All Customer Types</option>
+                            <option value="interior-designers">Interior Designers</option>
+                            <option value="contractors">Contractors</option>
+                            <option value="office-procurement">Office Procurement</option>
+                            <option value="accommodations">Accommodations</option>
+                            <option value="education">Education</option>
+                            <option value="foodservice">Foodservice</option>
+                            <option value="property-management">Property Management</option>
+                        </select>
+                        <select id="painLevelFilter" class="filter-select">
+                            <option value="">All Priority Levels</option>
+                            <option value="high">High Impact (8-9)</option>
+                            <option value="medium">Medium Impact (6-7)</option>
+                            <option value="standard">Standard (4-5)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Segments Navigation -->
+    <section class="customer-segments">
+        <div class="container">
+            <h2 class="section-title">Solutions by Industry</h2>
+            <div class="segments-grid">
+                <div class="segment-card featured" data-segment="interior-designers">
+                    <div class="segment-icon">🎨</div>
+                    <h3>Interior Designers</h3>
+                    <p>100+ articles on design trends, client management, and procurement efficiency</p>
+                    <span class="article-count">100+ Articles</span>
+                </div>
+                <div class="segment-card" data-segment="contractors">
+                    <div class="segment-icon">🔨</div>
+                    <h3>Contractors</h3>
+                    <p>Project coordination, timeline management, and delivery solutions</p>
+                    <span class="article-count">25 Articles</span>
+                </div>
+                <div class="segment-card" data-segment="office-procurement">
+                    <div class="segment-icon">🏢</div>
+                    <h3>Office Procurement</h3>
+                    <p>Hybrid work solutions, ergonomics, and cost optimization strategies</p>
+                    <span class="article-count">25 Articles</span>
+                </div>
+                <div class="segment-card" data-segment="accommodations">
+                    <div class="segment-icon">🏨</div>
+                    <h3>Accommodations</h3>
+                    <p>Guest experience, durability, and hospitality design trends</p>
+                    <span class="article-count">25 Articles</span>
+                </div>
+                <div class="segment-card" data-segment="education">
+                    <div class="segment-icon">🎓</div>
+                    <h3>Education</h3>
+                    <p>Learning environments, funding strategies, and flexible classroom design</p>
+                    <span class="article-count">20 Articles</span>
+                </div>
+                <div class="segment-card" data-segment="foodservice">
+                    <div class="segment-icon">🍽️</div>
+                    <h3>Foodservice</h3>
+                    <p>Efficient layouts, hygiene compliance, and customer flow optimization</p>
+                    <span class="article-count">20 Articles</span>
+                </div>
+                <div class="segment-card" data-segment="property-management">
+                    <div class="segment-icon">🏘️</div>
+                    <h3>Property Management</h3>
+                    <p>Tenant satisfaction, maintenance efficiency, and amenity spaces</p>
+                    <span class="article-count">20 Articles</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured High-Impact Articles -->
+    <section class="featured-articles">
+        <div class="container">
+            <h2 class="section-title">High-Impact Solutions</h2>
+            <p class="section-subtitle">Top-priority articles addressing critical pain points with proven ROI</p>
+            <div class="articles-grid" id="featuredArticles">
+                <!-- Articles will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources by Topic -->
+    <section class="topics">
+        <div class="container">
+            <h2 class="section-title">Browse by Topic</h2>
+            <div class="topics-grid">
+                <div class="topic-card" data-topic="cost-optimization">
+                    <h3>Cost Optimization</h3>
+                    <p>Strategies to reduce procurement costs and maximize budget efficiency</p>
+                </div>
+                <div class="topic-card" data-topic="space-planning">
+                    <h3>Space Planning</h3>
+                    <p>Layout optimization and space utilization best practices</p>
+                </div>
+                <div class="topic-card" data-topic="workflow-efficiency">
+                    <h3>Workflow Efficiency</h3>
+                    <p>Process improvement and operational optimization solutions</p>
+                </div>
+                <div class="topic-card" data-topic="compliance">
+                    <h3>Compliance & Safety</h3>
+                    <p>Regulatory requirements and safety standards guidance</p>
+                </div>
+                <div class="topic-card" data-topic="technology">
+                    <h3>Technology Integration</h3>
+                    <p>Smart furniture and tech-enabled workspace solutions</p>
+                </div>
+                <div class="topic-card" data-topic="durability">
+                    <h3>Durability & Maintenance</h3>
+                    <p>Long-term value and maintenance strategies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Commercial Space?</h2>
+                <p>Get personalized recommendations and expert consultation from Wayfair Professional</p>
+                <div class="cta-buttons">
+                    <a href="#consultation" class="btn btn-primary">Schedule Free Consultation</a>
+                    <a href="https://www.wayfair.com/professional/" class="btn btn-secondary">Browse Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Wayfair Professional</h4>
+                    <p>Leading B2B furniture and design solutions for commercial spaces.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#articles">All Articles</a></li>
+                        <li><a href="#consultation">Consultation</a></li>
+                        <li><a href="#trade-program">Trade Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:1-855-339-0297">1-855-339-0297</a></li>
+                        <li><a href="mailto:professional@wayfair.com">professional@wayfair.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wayfair Professional. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Article Results Modal -->
+    <div id="searchResults" class="search-results-modal hidden">
+        <div class="search-results-content">
+            <div class="search-results-header">
+                <h3>Search Results</h3>
+                <button class="close-btn" id="closeResults">&times;</button>
+            </div>
+            <div class="search-results-body" id="searchResultsBody">
+                <!-- Results will be populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/articles-data.js"></script>
+    <script src="scripts/search.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,318 @@
+{
+  "framework_date": "2024-12-28",
+  "project_overview": {
+    "total_problems_researched": 140,
+    "total_customer_segments": 7,
+    "total_wayfair_solutions_mapped": 25,
+    "total_blog_ideas_generated": 300,
+    "content_production_target": "300 articles (300-700 words each)"
+  },
+  "content_strategy_principles": {
+    "problem_first_approach": "Every article addresses specific customer pain points",
+    "solution_focused": "Content highlights Wayfair Professional solutions",
+    "segment_specific": "Tailored messaging for each customer segment",
+    "internal_linking": "Strategic cross-linking between related topics",
+    "seo_optimized": "Long-tail keywords based on customer problems"
+  },
+  "content_pillars": {
+    "pillar_1": {
+      "title": "Cost Optimization & Budget Management",
+      "target_segments": ["contractors", "office_procurement", "property_management", "education"],
+      "key_problems_addressed": [
+        "contractor_002", "contractor_006", "office_015", "prop_003", "edu_001"
+      ],
+      "wayfair_solutions_featured": [
+        "volume_pricing", "bulk_purchasing", "educational_pricing", "flexible_payment"
+      ],
+      "content_types": [
+        "ROI calculators and guides",
+        "Budget planning templates",
+        "Cost comparison studies",
+        "Financing option explanations"
+      ],
+      "article_count_target": 45
+    },
+    "pillar_2": {
+      "title": "Durability & Maintenance Solutions",
+      "target_segments": ["accommodations", "foodservice", "property_management", "education"],
+      "key_problems_addressed": [
+        "hotel_001", "food_003", "prop_002", "edu_004"
+      ],
+      "wayfair_solutions_featured": [
+        "commercial_seating", "easy_clean_furniture", "turnover_resistant", "maintenance_programs"
+      ],
+      "content_types": [
+        "Durability testing data",
+        "Maintenance cost analyses",
+        "Lifecycle comparison guides",
+        "Material selection guides"
+      ],
+      "article_count_target": 35
+    },
+    "pillar_3": {
+      "title": "Space Optimization & Planning",
+      "target_segments": ["office_procurement", "interior_designers", "education", "foodservice"],
+      "key_problems_addressed": [
+        "office_007", "interior_003", "edu_010", "food_005"
+      ],
+      "wayfair_solutions_featured": [
+        "space_planning", "modular_workstations", "space_analytics", "flexible_classroom"
+      ],
+      "content_types": [
+        "Space planning methodologies",
+        "Layout optimization case studies",
+        "Utilization measurement guides",
+        "Design best practices"
+      ],
+      "article_count_target": 40
+    },
+    "pillar_4": {
+      "title": "Compliance & Safety Standards",
+      "target_segments": ["contractors", "education", "foodservice", "accommodations"],
+      "key_problems_addressed": [
+        "contractor_013", "edu_003", "food_002", "hotel_003"
+      ],
+      "wayfair_solutions_featured": [
+        "compliance_support", "safety_certifications", "health_code_compliance", "ada_solutions"
+      ],
+      "content_types": [
+        "Compliance requirement guides",
+        "Safety standard explanations",
+        "Certification processes",
+        "Regulatory update summaries"
+      ],
+      "article_count_target": 30
+    },
+    "pillar_5": {
+      "title": "Technology Integration & Future-Proofing",
+      "target_segments": ["office_procurement", "interior_designers", "accommodations", "education"],
+      "key_problems_addressed": [
+        "office_006", "interior_019", "hotel_010", "edu_005"
+      ],
+      "wayfair_solutions_featured": [
+        "tech_integrated_furniture", "smart_office_solutions", "charging_stations", "digital_tools"
+      ],
+      "content_types": [
+        "Technology integration guides",
+        "Future-proofing strategies",
+        "Smart furniture benefits",
+        "Digital transformation tips"
+      ],
+      "article_count_target": 25
+    },
+    "pillar_6": {
+      "title": "Workflow Efficiency & Project Management",
+      "target_segments": ["contractors", "interior_designers", "office_procurement"],
+      "key_problems_addressed": [
+        "contractor_001", "interior_001", "office_009"
+      ],
+      "wayfair_solutions_featured": [
+        "project_delivery", "project_management", "procurement_platform", "trade_accounts"
+      ],
+      "content_types": [
+        "Project management best practices",
+        "Workflow optimization guides",
+        "Timeline coordination strategies",
+        "Process efficiency tips"
+      ],
+      "article_count_target": 25
+    }
+  },
+  "segment_specific_strategies": {
+    "interior_designers": {
+      "article_target": 100,
+      "primary_focus": "Design expertise and client satisfaction",
+      "key_value_propositions": [
+        "Trade pricing and professional access",
+        "Design consultation and space planning",
+        "3D visualization and presentation tools",
+        "Project coordination and timeline management"
+      ],
+      "content_angles": [
+        "Professional design processes",
+        "Client relationship management",
+        "Trend analysis and market insights",
+        "Business development strategies"
+      ]
+    },
+    "contractors": {
+      "article_target": 35,
+      "primary_focus": "Project efficiency and compliance",
+      "key_value_propositions": [
+        "Coordinated delivery and project management",
+        "Bulk pricing and volume discounts",
+        "Compliance support and certifications",
+        "Installation and logistics services"
+      ],
+      "content_angles": [
+        "Project timeline optimization",
+        "Cost management strategies",
+        "Regulatory compliance guides",
+        "Quality assurance processes"
+      ]
+    },
+    "office_procurement": {
+      "article_target": 35,
+      "primary_focus": "Workplace optimization and employee satisfaction",
+      "key_value_propositions": [
+        "Hybrid work furniture solutions",
+        "Employee wellness and ergonomics",
+        "Space optimization and analytics",
+        "Procurement process efficiency"
+      ],
+      "content_angles": [
+        "Workplace trends and best practices",
+        "Employee productivity optimization",
+        "Cost-benefit analyses",
+        "Change management strategies"
+      ]
+    },
+    "accommodations": {
+      "article_target": 30,
+      "primary_focus": "Guest satisfaction and operational efficiency",
+      "key_value_propositions": [
+        "Durability for high-traffic areas",
+        "Rapid replacement programs",
+        "Brand consistency across properties",
+        "Guest experience optimization"
+      ],
+      "content_angles": [
+        "Guest satisfaction impact studies",
+        "Operational efficiency guides",
+        "Property management strategies",
+        "Revenue optimization through furniture"
+      ]
+    },
+    "education": {
+      "article_target": 30,
+      "primary_focus": "Learning environment optimization and budget management",
+      "key_value_propositions": [
+        "Educational pricing and funding support",
+        "Flexible learning space configurations",
+        "Safety and age-appropriate designs",
+        "Budget optimization strategies"
+      ],
+      "content_angles": [
+        "Modern pedagogy support",
+        "Student safety and wellness",
+        "Budget planning and grants",
+        "Learning outcome optimization"
+      ]
+    },
+    "foodservice": {
+      "article_target": 25,
+      "primary_focus": "Health compliance and operational efficiency",
+      "key_value_propositions": [
+        "Easy-clean and antimicrobial furniture",
+        "Health code compliance support",
+        "Durability for commercial use",
+        "Customer experience optimization"
+      ],
+      "content_angles": [
+        "Health and safety compliance",
+        "Operational efficiency optimization",
+        "Customer experience enhancement",
+        "Cost management strategies"
+      ]
+    },
+    "property_management": {
+      "article_target": 25,
+      "primary_focus": "Tenant satisfaction and asset optimization",
+      "key_value_propositions": [
+        "Tenant satisfaction and retention",
+        "Durability for turnover environments",
+        "Portfolio management efficiency",
+        "Property value enhancement"
+      ],
+      "content_angles": [
+        "Tenant retention strategies",
+        "Asset management optimization",
+        "Property value enhancement",
+        "Operational efficiency improvement"
+      ]
+    }
+  },
+  "content_formats": {
+    "comprehensive_guides": {
+      "word_count": "600-700 words",
+      "frequency": "Weekly",
+      "target": "High-impact problems (pain level 8-9)",
+      "examples": [
+        "Complete Guide to Hybrid Work Furniture",
+        "Commercial Furniture Durability Handbook",
+        "Compliance Requirements for Educational Furniture"
+      ]
+    },
+    "solution_spotlights": {
+      "word_count": "400-500 words",
+      "frequency": "Bi-weekly",
+      "target": "Specific Wayfair Professional solutions",
+      "examples": [
+        "Volume Pricing Program Benefits",
+        "Emergency Replacement Service Overview",
+        "Professional Space Planning Process"
+      ]
+    },
+    "problem_solver_articles": {
+      "word_count": "300-400 words",
+      "frequency": "Daily",
+      "target": "Specific customer problems",
+      "examples": [
+        "How to Prevent Project Delivery Delays",
+        "Reducing Furniture Maintenance Costs",
+        "Optimizing Classroom Space Layouts"
+      ]
+    },
+    "case_studies": {
+      "word_count": "500-600 words",
+      "frequency": "Monthly",
+      "target": "Success stories and ROI demonstrations",
+      "examples": [
+        "Hotel Chain Reduces Replacement Costs by 60%",
+        "Office Redesign Improves Employee Satisfaction",
+        "School District Optimizes Budget with Strategic Planning"
+      ]
+    }
+  },
+  "internal_linking_strategy": {
+    "hub_and_spoke_model": {
+      "hub_articles": "Comprehensive guides for each content pillar",
+      "spoke_articles": "Specific problem-solution articles linking back to hubs",
+      "cross_links": "Related topics across different customer segments"
+    },
+    "linking_priorities": [
+      "Problem articles link to solution articles",
+      "Segment-specific articles cross-link to related segments",
+      "Product articles link to service articles",
+      "Case studies link to relevant guides"
+    ]
+  },
+  "seo_keyword_strategy": {
+    "primary_keywords": [
+      "Commercial furniture [segment]",
+      "[Problem] furniture solutions",
+      "Wayfair Professional [solution]",
+      "[Segment] furniture procurement"
+    ],
+    "long_tail_keywords": [
+      "How to solve [specific problem]",
+      "Best furniture for [specific use case]",
+      "[Solution] for [segment] furniture",
+      "Wayfair Professional [specific service]"
+    ]
+  },
+  "measurement_and_optimization": {
+    "success_metrics": [
+      "Organic traffic growth",
+      "Lead generation from content",
+      "Engagement metrics (time on page, bounce rate)",
+      "Conversion to Wayfair Professional accounts"
+    ],
+    "optimization_schedule": [
+      "Weekly performance review",
+      "Monthly content audit",
+      "Quarterly strategy adjustment",
+      "Annual comprehensive review"
+    ]
+  }
+} 

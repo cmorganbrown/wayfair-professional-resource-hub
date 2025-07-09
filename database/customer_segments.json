@@ -1,0 +1,102 @@
+{
+  "customer_segments": [
+    {
+      "id": "interior_designers",
+      "name": "Interior Designers",
+      "description": "Professional interior designers working on residential and commercial projects",
+      "is_primary": true,
+      "target_article_count": 100,
+      "key_characteristics": [
+        "Aesthetic-focused decision making",
+        "Client budget considerations",
+        "Project timeline pressures",
+        "Style and trend awareness",
+        "Quality and durability requirements"
+      ]
+    },
+    {
+      "id": "contractors",
+      "name": "Contractors", 
+      "description": "General contractors and specialized contractors working on construction and renovation projects",
+      "is_primary": false,
+      "target_article_count": 20,
+      "key_characteristics": [
+        "Cost-efficiency focused",
+        "Bulk purchasing needs",
+        "Installation considerations",
+        "Durability requirements",
+        "Timeline adherence"
+      ]
+    },
+    {
+      "id": "office_procurement",
+      "name": "Office Furniture Procurement Teams",
+      "description": "Corporate procurement teams responsible for office furniture and workspace design",
+      "is_primary": false,
+      "target_article_count": 20,
+      "key_characteristics": [
+        "Budget optimization",
+        "Employee wellness focus",
+        "Compliance requirements",
+        "Bulk purchasing",
+        "Long-term ROI considerations"
+      ]
+    },
+    {
+      "id": "accommodations",
+      "name": "Accommodations (Hotels)",
+      "description": "Hotel managers, hospitality designers, and accommodation facility managers",
+      "is_primary": false,
+      "target_article_count": 20,
+      "key_characteristics": [
+        "Guest experience focus",
+        "High-traffic durability",
+        "Brand consistency",
+        "Easy maintenance",
+        "Cost per room optimization"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education (Classroom Furniture)",
+      "description": "School administrators, facility managers, and educational procurement teams",
+      "is_primary": false,
+      "target_article_count": 20,
+      "key_characteristics": [
+        "Student safety requirements",
+        "Durability for heavy use",
+        "Budget constraints",
+        "Flexible learning environments",
+        "Compliance with educational standards"
+      ]
+    },
+    {
+      "id": "foodservice",
+      "name": "Foodservice (Restaurants)",
+      "description": "Restaurant owners, managers, and hospitality designers working on dining establishments",
+      "is_primary": false,
+      "target_article_count": 20,
+      "key_characteristics": [
+        "Easy cleaning requirements",
+        "Ambiance and atmosphere",
+        "High-traffic durability",
+        "Space optimization",
+        "Health code compliance"
+      ]
+    },
+    {
+      "id": "property_management",
+      "name": "Property Management",
+      "description": "Property managers, real estate professionals, and facility managers",
+      "is_primary": false,
+      "target_article_count": 20,
+      "key_characteristics": [
+        "Tenant satisfaction",
+        "Maintenance efficiency",
+        "Cost-effective solutions",
+        "Property value enhancement",
+        "Longevity and durability"
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,496 @@
+{
+  "mapping_date": "2024-12-28",
+  "total_problems_mapped": 140,
+  "total_customer_segments": 7,
+  "solution_categories": [
+    {
+      "category_id": "products",
+      "category_name": "Wayfair Professional Products",
+      "description": "Physical furniture and fixture products available through Wayfair Professional",
+      "subcategories": [
+        {
+          "subcategory_id": "office_furniture",
+          "name": "Office Furniture",
+          "products": [
+            {
+              "product_id": "ergonomic_seating",
+              "name": "Ergonomic Office Seating",
+              "description": "Adjustable chairs with lumbar support, ergonomic design features",
+              "target_segments": ["office_procurement", "interior_designers"],
+              "solves_problems": ["office_003", "interior_015"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Ergonomic workspace design guides",
+                "ROI of employee wellness furniture",
+                "Compliance guides for workplace health"
+              ]
+            },
+            {
+              "product_id": "modular_workstations",
+              "name": "Modular Workstation Systems",
+              "description": "Flexible desk systems that adapt to hybrid work and space changes",
+              "target_segments": ["office_procurement", "interior_designers", "contractors"],
+              "solves_problems": ["office_001", "office_007", "interior_012"],
+              "pain_level_addressed": "8-9",
+              "content_opportunities": [
+                "Hybrid work space planning",
+                "Future-proofing office investments",
+                "Space optimization strategies"
+              ]
+            },
+            {
+              "product_id": "collaborative_furniture",
+              "name": "Collaborative Meeting Furniture",
+              "description": "Flexible furniture for meeting spaces, collaboration areas",
+              "target_segments": ["office_procurement", "interior_designers", "education"],
+              "solves_problems": ["office_008", "edu_012", "interior_018"],
+              "pain_level_addressed": "6-7",
+              "content_opportunities": [
+                "Designing collaboration spaces",
+                "Meeting room optimization",
+                "Team productivity furniture"
+              ]
+            }
+          ]
+        },
+        {
+          "subcategory_id": "hospitality_furniture",
+          "name": "Hospitality & Commercial Furniture",
+          "products": [
+            {
+              "product_id": "commercial_seating",
+              "name": "High-Durability Commercial Seating",
+              "description": "Heavy-duty seating for high-traffic hospitality environments",
+              "target_segments": ["accommodations", "foodservice", "contractors"],
+              "solves_problems": ["hotel_001", "food_003", "contractor_003"],
+              "pain_level_addressed": "8-9",
+              "content_opportunities": [
+                "Durability testing and warranties",
+                "Cost per use analysis",
+                "Guest satisfaction impact"
+              ]
+            },
+            {
+              "product_id": "easy_clean_furniture",
+              "name": "Easy-Clean Restaurant Furniture",
+              "description": "Stain-resistant, antimicrobial furniture for food service",
+              "target_segments": ["foodservice", "accommodations", "education"],
+              "solves_problems": ["food_001", "food_006", "hotel_007"],
+              "pain_level_addressed": "8-9",
+              "content_opportunities": [
+                "Health code compliance guides",
+                "Cleaning efficiency optimization",
+                "Maintenance cost reduction"
+              ]
+            },
+            {
+              "product_id": "outdoor_dining",
+              "name": "Weather-Resistant Outdoor Furniture",
+              "description": "All-season outdoor furniture for patios and outdoor dining",
+              "target_segments": ["foodservice", "accommodations", "education"],
+              "solves_problems": ["food_008", "hotel_005", "edu_016"],
+              "pain_level_addressed": "5-6",
+              "content_opportunities": [
+                "Outdoor dining ROI",
+                "Weather resistance testing",
+                "Seasonal furniture strategies"
+              ]
+            }
+          ]
+        },
+        {
+          "subcategory_id": "educational_furniture",
+          "name": "Educational Furniture",
+          "products": [
+            {
+              "product_id": "flexible_classroom",
+              "name": "Flexible Classroom Furniture",
+              "description": "Modular, mobile furniture supporting multiple teaching methods",
+              "target_segments": ["education", "office_procurement"],
+              "solves_problems": ["edu_002", "edu_012", "office_001"],
+              "pain_level_addressed": "8",
+              "content_opportunities": [
+                "Modern pedagogy furniture design",
+                "Learning outcome optimization",
+                "Classroom reconfiguration guides"
+              ]
+            },
+            {
+              "product_id": "age_appropriate",
+              "name": "Age-Appropriate Safety Furniture",
+              "description": "Furniture designed for specific age groups with safety certifications",
+              "target_segments": ["education", "accommodations"],
+              "solves_problems": ["edu_003", "edu_009", "hotel_003"],
+              "pain_level_addressed": "8",
+              "content_opportunities": [
+                "Safety compliance in education",
+                "Age-appropriate design principles",
+                "Liability reduction strategies"
+              ]
+            }
+          ]
+        },
+        {
+          "subcategory_id": "residential_commercial",
+          "name": "Residential & Property Management",
+          "products": [
+            {
+              "product_id": "turnover_resistant",
+              "name": "Turnover-Resistant Apartment Furniture",
+              "description": "Durable furniture designed for high-turnover rental properties",
+              "target_segments": ["property_management", "accommodations"],
+              "solves_problems": ["prop_002", "prop_004", "hotel_001"],
+              "pain_level_addressed": "8",
+              "content_opportunities": [
+                "Tenant retention through furniture",
+                "Turnover cost reduction",
+                "Property value enhancement"
+              ]
+            },
+            {
+              "product_id": "multi_generational",
+              "name": "Universal Design Furniture",
+              "description": "Furniture accommodating diverse age groups and accessibility needs",
+              "target_segments": ["property_management", "office_procurement", "accommodations"],
+              "solves_problems": ["prop_014", "office_017", "hotel_012"],
+              "pain_level_addressed": "6-7",
+              "content_opportunities": [
+                "Inclusive design principles",
+                "ADA compliance strategies",
+                "Universal accessibility"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "services",
+      "category_name": "Wayfair Professional Services",
+      "description": "Professional services and support offerings from Wayfair Professional",
+      "subcategories": [
+        {
+          "subcategory_id": "design_services",
+          "name": "Design & Consultation Services",
+          "services": [
+            {
+              "service_id": "space_planning",
+              "name": "Professional Space Planning",
+              "description": "Expert space planning and layout optimization services",
+              "target_segments": ["office_procurement", "interior_designers", "contractors"],
+              "solves_problems": ["office_007", "contractor_017", "interior_003"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Space planning ROI case studies",
+                "Optimization methodology guides",
+                "Industry-specific planning"
+              ]
+            },
+            {
+              "service_id": "design_consultation",
+              "name": "Professional Design Consultation",
+              "description": "Expert design guidance for commercial projects",
+              "target_segments": ["interior_designers", "contractors", "office_procurement"],
+              "solves_problems": ["interior_002", "contractor_017", "office_013"],
+              "pain_level_addressed": "5-6",
+              "content_opportunities": [
+                "Design trend insights",
+                "Brand alignment strategies",
+                "Professional design processes"
+              ]
+            }
+          ]
+        },
+        {
+          "subcategory_id": "procurement_services",
+          "name": "Procurement & Account Services",
+          "services": [
+            {
+              "service_id": "trade_accounts",
+              "name": "Trade Account Programs",
+              "description": "Dedicated trade accounts with special pricing and services",
+              "target_segments": ["interior_designers", "contractors", "office_procurement"],
+              "solves_problems": ["interior_005", "contractor_002", "contractor_005"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Trade pricing benefits",
+                "Professional account features",
+                "Exclusive access guides"
+              ]
+            },
+            {
+              "service_id": "bulk_pricing",
+              "name": "Volume Pricing Programs",
+              "description": "Competitive bulk pricing for large orders",
+              "target_segments": ["contractors", "office_procurement", "property_management"],
+              "solves_problems": ["contractor_002", "office_015", "prop_003"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Volume purchasing strategies",
+                "Cost optimization guides",
+                "Budget management tools"
+              ]
+            },
+            {
+              "service_id": "procurement_platform",
+              "name": "Streamlined Procurement Platform",
+              "description": "Digital platform simplifying procurement processes",
+              "target_segments": ["office_procurement", "contractors", "property_management"],
+              "solves_problems": ["office_009", "contractor_015", "prop_016"],
+              "pain_level_addressed": "6-7",
+              "content_opportunities": [
+                "Digital transformation guides",
+                "Procurement efficiency tips",
+                "Platform training resources"
+              ]
+            }
+          ]
+        },
+        {
+          "subcategory_id": "logistics_services",
+          "name": "Logistics & Installation Services",
+          "services": [
+            {
+              "service_id": "project_delivery",
+              "name": "Project-Based Delivery Coordination",
+              "description": "Coordinated delivery services for large projects",
+              "target_segments": ["contractors", "office_procurement", "accommodations"],
+              "solves_problems": ["contractor_001", "contractor_004", "office_012"],
+              "pain_level_addressed": "8-9",
+              "content_opportunities": [
+                "Project timeline optimization",
+                "Delivery coordination strategies",
+                "Logistics best practices"
+              ]
+            },
+            {
+              "service_id": "installation_services",
+              "name": "Professional Installation Services",
+              "description": "Expert installation and assembly services",
+              "target_segments": ["contractors", "office_procurement", "accommodations"],
+              "solves_problems": ["contractor_010", "office_012", "hotel_016"],
+              "pain_level_addressed": "7",
+              "content_opportunities": [
+                "Installation efficiency guides",
+                "Professional assembly benefits",
+                "Project coordination tips"
+              ]
+            },
+            {
+              "service_id": "emergency_replacement",
+              "name": "Rapid Replacement Programs",
+              "description": "Fast replacement services for urgent needs",
+              "target_segments": ["accommodations", "foodservice", "property_management"],
+              "solves_problems": ["hotel_004", "food_012", "prop_004"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Emergency preparedness planning",
+                "Rapid response case studies",
+                "Business continuity strategies"
+              ]
+            }
+          ]
+        },
+        {
+          "subcategory_id": "support_services",
+          "name": "Support & Compliance Services",
+          "services": [
+            {
+              "service_id": "compliance_support",
+              "name": "Regulatory Compliance Support",
+              "description": "Guidance on safety, accessibility, and industry regulations",
+              "target_segments": ["contractors", "education", "foodservice"],
+              "solves_problems": ["contractor_013", "contractor_014", "edu_003", "food_002"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Compliance requirement guides",
+                "Industry regulation updates",
+                "Certification assistance"
+              ]
+            },
+            {
+              "service_id": "sustainability_consulting",
+              "name": "Sustainability Consulting",
+              "description": "Green building and sustainability certification support",
+              "target_segments": ["contractors", "office_procurement", "education"],
+              "solves_problems": ["contractor_012", "office_005", "edu_014"],
+              "pain_level_addressed": "5-6",
+              "content_opportunities": [
+                "Sustainable furniture guides",
+                "Green certification processes",
+                "Environmental impact reduction"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "tools_platforms",
+      "category_name": "Tools & Digital Platforms",
+      "description": "Digital tools and platforms supporting customer workflows",
+      "subcategories": [
+        {
+          "subcategory_id": "planning_tools",
+          "name": "Planning & Design Tools",
+          "tools": [
+            {
+              "tool_id": "space_planning_software",
+              "name": "Digital Space Planning Tools",
+              "description": "Online tools for space planning and layout optimization",
+              "target_segments": ["interior_designers", "office_procurement", "contractors"],
+              "solves_problems": ["interior_003", "office_007", "contractor_017"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Space planning tutorials",
+                "Tool usage guides",
+                "Optimization techniques"
+              ]
+            },
+            {
+              "tool_id": "visualization_tools",
+              "name": "3D Visualization Platform",
+              "description": "3D rendering and visualization for design presentations",
+              "target_segments": ["interior_designers", "contractors"],
+              "solves_problems": ["interior_004", "contractor_007"],
+              "pain_level_addressed": "6-7",
+              "content_opportunities": [
+                "Client presentation guides",
+                "Visualization best practices",
+                "Design communication tips"
+              ]
+            }
+          ]
+        },
+        {
+          "subcategory_id": "management_tools",
+          "name": "Project & Asset Management",
+          "tools": [
+            {
+              "tool_id": "project_management",
+              "name": "Project Management Platform",
+              "description": "Tools for tracking orders, deliveries, and project timelines",
+              "target_segments": ["contractors", "office_procurement", "property_management"],
+              "solves_problems": ["contractor_001", "office_012", "prop_017"],
+              "pain_level_addressed": "7-8",
+              "content_opportunities": [
+                "Project management best practices",
+                "Timeline optimization guides",
+                "Coordination strategies"
+              ]
+            },
+            {
+              "tool_id": "asset_tracking",
+              "name": "Furniture Asset Management",
+              "description": "Digital platform for tracking furniture lifecycle and maintenance",
+              "target_segments": ["office_procurement", "property_management", "accommodations"],
+              "solves_problems": ["office_011", "prop_019", "hotel_019"],
+              "pain_level_addressed": "5-6",
+              "content_opportunities": [
+                "Asset lifecycle optimization",
+                "Maintenance planning guides",
+                "ROI tracking methods"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "problem_solution_matrix": {
+    "high_impact_mappings": [
+      {
+        "problem_id": "contractor_001",
+        "problem_title": "Project Timeline Delays Affecting Furniture Delivery",
+        "pain_level": 9,
+        "frequency": "Very High",
+        "solutions": [
+          {
+            "solution_type": "service",
+            "solution_id": "project_delivery",
+            "match_strength": "high",
+            "content_angle": "How coordinated delivery prevents project delays"
+          },
+          {
+            "solution_type": "tool",
+            "solution_id": "project_management",
+            "match_strength": "medium",
+            "content_angle": "Digital tools for delivery timeline management"
+          }
+        ]
+      },
+      {
+        "problem_id": "office_001",
+        "problem_title": "Hybrid Work Model Furniture Flexibility Requirements",
+        "pain_level": 8,
+        "frequency": "Very High",
+        "solutions": [
+          {
+            "solution_type": "product",
+            "solution_id": "modular_workstations",
+            "match_strength": "high",
+            "content_angle": "Modular furniture for hybrid work success"
+          },
+          {
+            "solution_type": "service",
+            "solution_id": "space_planning",
+            "match_strength": "high",
+            "content_angle": "Professional space planning for hybrid offices"
+          }
+        ]
+      },
+      {
+        "problem_id": "hotel_001",
+        "problem_title": "Durability Requirements for High-Traffic Guest Areas",
+        "pain_level": 9,
+        "frequency": "Very High",
+        "solutions": [
+          {
+            "solution_type": "product",
+            "solution_id": "commercial_seating",
+            "match_strength": "high",
+            "content_angle": "Commercial-grade furniture for hospitality durability"
+          },
+          {
+            "solution_type": "service",
+            "solution_id": "emergency_replacement",
+            "match_strength": "medium",
+            "content_angle": "Rapid replacement for guest satisfaction"
+          }
+        ]
+      }
+    ]
+  },
+  "content_opportunities": {
+    "priority_content_themes": [
+      {
+        "theme": "Cost Optimization",
+        "target_segments": ["contractors", "office_procurement", "property_management"],
+        "key_problems": ["contractor_002", "office_015", "prop_003"],
+        "solution_focus": ["bulk_pricing", "procurement_platform", "project_delivery"],
+        "content_types": ["ROI calculators", "Cost comparison guides", "Budget optimization strategies"]
+      },
+      {
+        "theme": "Durability & Maintenance",
+        "target_segments": ["accommodations", "foodservice", "property_management"],
+        "key_problems": ["hotel_001", "food_003", "prop_002"],
+        "solution_focus": ["commercial_seating", "easy_clean_furniture", "turnover_resistant"],
+        "content_types": ["Durability testing data", "Maintenance cost analysis", "Lifecycle comparisons"]
+      },
+      {
+        "theme": "Compliance & Safety",
+        "target_segments": ["contractors", "education", "foodservice"],
+        "key_problems": ["contractor_013", "edu_003", "food_002"],
+        "solution_focus": ["compliance_support", "age_appropriate", "easy_clean_furniture"],
+        "content_types": ["Compliance guides", "Safety certification info", "Regulatory updates"]
+      },
+      {
+        "theme": "Space Optimization",
+        "target_segments": ["office_procurement", "education", "foodservice"],
+        "key_problems": ["office_007", "edu_010", "food_005"],
+        "solution_focus": ["space_planning", "flexible_classroom", "space_planning_software"],
+        "content_types": ["Space planning guides", "Optimization case studies", "Layout best practices"]
+      }
+    ]
+  }
+} 

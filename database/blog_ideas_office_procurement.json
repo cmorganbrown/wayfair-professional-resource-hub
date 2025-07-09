@@ -1,0 +1,24 @@
+{
+  "blog_ideas_office_procurement": [
+    {"id": "ofc_001", "title": "ROI Analysis: Investing in Quality Office Furniture", "content_type": "informative", "keywords": ["office furniture ROI", "investment analysis", "quality furniture"]},
+    {"id": "ofc_002", "title": "How to Create Ergonomic Workspaces That Boost Productivity", "content_type": "helpful", "keywords": ["ergonomic workspace", "productivity", "employee wellness"]},
+    {"id": "ofc_003", "title": "Best Wayfair Professional Office Chairs for Corporate Environments", "content_type": "transactional", "keywords": ["wayfair professional", "office chairs", "corporate furniture"]},
+    {"id": "ofc_004", "title": "Designing Flexible Office Spaces for Hybrid Work Models", "content_type": "helpful", "keywords": ["flexible office", "hybrid work", "adaptable furniture"]},
+    {"id": "ofc_005", "title": "Understanding GREENGUARD and BIFMA Certifications for Office Furniture", "content_type": "informative", "keywords": ["GREENGUARD", "BIFMA", "office furniture standards"]},
+    {"id": "ofc_006", "title": "Top Wayfair Professional Standing Desks for Modern Offices", "content_type": "transactional", "keywords": ["wayfair professional", "standing desks", "adjustable furniture"]},
+    {"id": "ofc_007", "title": "How to Calculate Total Cost of Ownership for Office Furniture", "content_type": "helpful", "keywords": ["total cost ownership", "furniture budgeting", "procurement planning"]},
+    {"id": "ofc_008", "title": "Creating Collaborative Spaces That Encourage Innovation", "content_type": "helpful", "keywords": ["collaborative spaces", "innovation", "teamwork furniture"]},
+    {"id": "ofc_009", "title": "Best Wayfair Professional Conference Room Furniture", "content_type": "transactional", "keywords": ["wayfair professional", "conference room", "meeting furniture"]},
+    {"id": "ofc_010", "title": "How to Design Wellness-Focused Office Environments", "content_type": "helpful", "keywords": ["office wellness", "employee health", "biophilic design"]},
+    {"id": "ofc_011", "title": "The Impact of Office Design on Employee Retention", "content_type": "informative", "keywords": ["office design impact", "employee retention", "workplace culture"]},
+    {"id": "ofc_012", "title": "Managing Office Furniture Procurement for Multi-Location Companies", "content_type": "helpful", "keywords": ["multi-location procurement", "standardization", "corporate consistency"]},
+    {"id": "ofc_013", "title": "Top Wayfair Professional Storage Solutions for Office Organization", "content_type": "transactional", "keywords": ["wayfair professional", "office storage", "organization furniture"]},
+    {"id": "ofc_014", "title": "How to Choose Sustainable Office Furniture for Green Buildings", "content_type": "helpful", "keywords": ["sustainable office furniture", "green buildings", "eco-friendly"]},
+    {"id": "ofc_015", "title": "Acoustic Solutions for Open Office Environments", "content_type": "informative", "keywords": ["office acoustics", "noise control", "sound management"]},
+    {"id": "ofc_016", "title": "Creating Inclusive Office Spaces for Diverse Teams", "content_type": "helpful", "keywords": ["inclusive office", "diversity", "accessible workspace"]},
+    {"id": "ofc_017", "title": "Best Wayfair Professional Lounge Furniture for Office Break Areas", "content_type": "transactional", "keywords": ["wayfair professional", "lounge furniture", "break room"]},
+    {"id": "ofc_018", "title": "How to Plan Office Furniture for Growth and Scalability", "content_type": "helpful", "keywords": ["scalable office", "growth planning", "flexible furniture"]},
+    {"id": "ofc_019", "title": "Technology Integration in Modern Office Furniture", "content_type": "informative", "keywords": ["technology furniture", "smart office", "integrated solutions"]},
+    {"id": "ofc_020", "title": "Wayfair Professional's Best Executive Office Furniture Collections", "content_type": "transactional", "keywords": ["wayfair professional", "executive furniture", "leadership spaces"]}
+  ]
+} 

@@ -1,0 +1,87 @@
+{
+  "tier1_production_workflow": {
+    "overview": {
+      "total_articles": 15,
+      "target_timeline": "2 weeks",
+      "daily_target": "1-2 articles",
+      "word_count_range": "650-700 words per article",
+      "priority_order": "Pain level 9 → 8-9 → 8 → 7-8"
+    },
+    "production_priorities": {
+      "immediate_priority": [
+        {
+          "article_id": "tier1_003",
+          "title": "Project Timeline Management: Coordinated Delivery Solutions for Construction",
+          "pain_level": 9,
+          "business_impact": "Prevents $25K-100K cost overruns per project"
+        },
+        {
+          "article_id": "tier1_007", 
+          "title": "Unpredictable Lead Times: How Interior Designers Can Guarantee Project Success",
+          "pain_level": 9,
+          "business_impact": "Prevents $10K-50K per project delay incident"
+        },
+        {
+          "article_id": "tier1_008",
+          "title": "Educational Furniture on a Budget: Funding Strategies That Work", 
+          "pain_level": 9,
+          "business_impact": "Enables schools to create quality learning environments"
+        }
+      ],
+      "high_priority": [
+        {
+          "article_id": "tier1_001",
+          "title": "The Complete Guide to Hybrid Work Furniture Solutions",
+          "pain_level": "8-9", 
+          "business_impact": "Addresses $2.3B hybrid work furniture market"
+        },
+        {
+          "article_id": "tier1_006",
+          "title": "Employee Wellness Through Ergonomic Furniture",
+          "pain_level": 8,
+          "business_impact": "Healthcare cost savings $3,000-5,000 per employee"
+        }
+      ]
+    },
+    "quality_standards": {
+      "content_requirements": [
+        "Address specific customer pain points in opening",
+        "Include quantified benefits and ROI data",
+        "Feature 2-3 Wayfair Professional solutions naturally",
+        "Provide actionable takeaways",
+        "End with compelling call-to-action"
+      ],
+      "seo_optimization": [
+        "Primary keyword in title and H1",
+        "Secondary keywords in H2 subheadings", 
+        "Long-tail keywords throughout content",
+        "Internal links to relevant resources",
+        "Meta description under 155 characters"
+      ],
+      "wayfair_integration": [
+        "Solutions mentioned as natural problem-solvers",
+        "Benefits quantified with specific metrics",
+        "Multiple engagement opportunities",
+        "Clear value proposition alignment"
+      ]
+    },
+    "article_structure_template": {
+      "introduction": "Hook + pain point identification (100-150 words)",
+      "section_1": "Problem deep-dive + impact analysis (150-200 words)",
+      "section_2": "Solution framework + Wayfair benefits (200-250 words)", 
+      "section_3": "Implementation strategies + ROI analysis (150-200 words)",
+      "conclusion": "Summary + clear call-to-action (50-100 words)"
+    },
+    "production_schedule": {
+      "week_1": {
+        "day_1-2": "Articles tier1_003, tier1_007, tier1_008 (pain level 9)",
+        "day_3-4": "Articles tier1_001, tier1_006 (pain level 8-9)",
+        "day_5": "Quality review and optimization"
+      },
+      "week_2": {
+        "day_1-3": "Remaining 10 Tier 1 articles",
+        "day_4-5": "Final review, SEO optimization, internal linking"
+      }
+    }
+  }
+} 

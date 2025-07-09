@@ -1,0 +1,24 @@
+{
+  "blog_ideas_foodservice": [
+    {"id": "res_001", "title": "Creating Restaurant Ambiance Through Strategic Furniture Selection", "content_type": "helpful", "keywords": ["restaurant ambiance", "dining atmosphere", "furniture selection"]},
+    {"id": "res_002", "title": "Understanding Health Code Requirements for Restaurant Furniture", "content_type": "informative", "keywords": ["health code compliance", "restaurant regulations", "commercial furniture"]},
+    {"id": "res_003", "title": "Best Wayfair Professional Restaurant Chairs for High-Traffic Dining", "content_type": "transactional", "keywords": ["wayfair professional", "restaurant chairs", "commercial seating"]},
+    {"id": "res_004", "title": "How to Choose Easy-to-Clean Furniture for Restaurant Efficiency", "content_type": "helpful", "keywords": ["easy-clean furniture", "restaurant maintenance", "sanitization"]},
+    {"id": "res_005", "title": "Maximizing Seating Capacity with Smart Restaurant Layout Design", "content_type": "helpful", "keywords": ["seating capacity", "restaurant layout", "space optimization"]},
+    {"id": "res_006", "title": "Top Wayfair Professional Bar Furniture for Restaurant Lounges", "content_type": "transactional", "keywords": ["wayfair professional", "bar furniture", "restaurant lounge"]},
+    {"id": "res_007", "title": "How to Design Outdoor Dining Spaces That Withstand Weather", "content_type": "helpful", "keywords": ["outdoor dining", "weather resistant", "patio furniture"]},
+    {"id": "res_008", "title": "Creating Intimate Dining Experiences with Booth Seating", "content_type": "helpful", "keywords": ["booth seating", "intimate dining", "restaurant booths"]},
+    {"id": "res_009", "title": "Best Wayfair Professional Tables for Restaurant Dining Rooms", "content_type": "transactional", "keywords": ["wayfair professional", "restaurant tables", "dining furniture"]},
+    {"id": "res_010", "title": "How to Choose Furniture That Reflects Your Restaurant's Brand", "content_type": "helpful", "keywords": ["brand identity", "restaurant design", "furniture branding"]},
+    {"id": "res_011", "title": "The Psychology of Color in Restaurant Interior Design", "content_type": "informative", "keywords": ["color psychology", "restaurant colors", "dining psychology"]},
+    {"id": "res_012", "title": "Managing Restaurant Furniture Costs Without Sacrificing Quality", "content_type": "helpful", "keywords": ["furniture costs", "budget management", "quality furniture"]},
+    {"id": "res_013", "title": "Top Wayfair Professional Outdoor Furniture for Restaurant Patios", "content_type": "transactional", "keywords": ["wayfair professional", "outdoor furniture", "restaurant patio"]},
+    {"id": "res_014", "title": "How to Design Accessible Restaurant Spaces for All Customers", "content_type": "helpful", "keywords": ["accessible design", "ADA compliance", "inclusive dining"]},
+    {"id": "res_015", "title": "Sustainable Furniture Options for Eco-Conscious Restaurants", "content_type": "informative", "keywords": ["sustainable furniture", "eco-friendly dining", "green restaurants"]},
+    {"id": "res_016", "title": "Creating Flexible Seating for Private Events and Large Groups", "content_type": "helpful", "keywords": ["flexible seating", "private events", "group dining"]},
+    {"id": "res_017", "title": "Best Wayfair Professional Storage Solutions for Restaurant Organization", "content_type": "transactional", "keywords": ["wayfair professional", "restaurant storage", "organization furniture"]},
+    {"id": "res_018", "title": "How to Design Child-Friendly Restaurant Spaces", "content_type": "helpful", "keywords": ["child-friendly dining", "family restaurants", "kid furniture"]},
+    {"id": "res_019", "title": "Acoustic Considerations for Restaurant Furniture and Layout", "content_type": "informative", "keywords": ["restaurant acoustics", "noise control", "sound management"]},
+    {"id": "res_020", "title": "Wayfair Professional's Best Host Stations and Reception Furniture", "content_type": "transactional", "keywords": ["wayfair professional", "host station", "reception furniture"]}
+  ]
+} 
