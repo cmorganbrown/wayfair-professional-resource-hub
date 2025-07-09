@@ -291,10 +291,13 @@ const articlesData = {
 
   searchArticles(query, filters = {}) {
     let results = this.getAllArticles();
+    console.log(`Starting search with query: "${query}", filters:`, filters);
+    console.log(`Total articles available: ${results.length}`);
     
     // Filter by customer segment
     if (filters.customerSegment) {
       results = results.filter(article => article.customerSegment === filters.customerSegment);
+      console.log(`After customer segment filter (${filters.customerSegment}): ${results.length} articles`);
     }
     
     // Filter by pain level
@@ -304,21 +307,42 @@ const articlesData = {
         results = results.filter(article => 
           article.painLevel >= range.min && article.painLevel <= range.max
         );
+        console.log(`After pain level filter (${filters.painLevel}): ${results.length} articles`);
       }
     }
     
     // Text search
     if (query && query.trim()) {
       const searchTerm = query.toLowerCase().trim();
-      results = results.filter(article => {
-        return (
-          article.title.toLowerCase().includes(searchTerm) ||
-          article.excerpt.toLowerCase().includes(searchTerm) ||
-          article.problemsSolved.some(problem => problem.toLowerCase().includes(searchTerm)) ||
-          article.wayfairSolutions.some(solution => solution.toLowerCase().includes(searchTerm)) ||
-          article.topics.some(topic => this.searchIndex.topics[topic].toLowerCase().includes(searchTerm))
-        );
+      console.log(`Searching for: "${searchTerm}"`);
+      
+      // Log what we're searching against for debugging
+      results.forEach((article, index) => {
+        console.log(`Article ${index + 1}: "${article.title}"`);
       });
+      
+      results = results.filter(article => {
+        const titleMatch = article.title.toLowerCase().includes(searchTerm);
+        const excerptMatch = article.excerpt.toLowerCase().includes(searchTerm);
+        const problemsMatch = article.problemsSolved.some(problem => problem.toLowerCase().includes(searchTerm));
+        const solutionsMatch = article.wayfairSolutions.some(solution => solution.toLowerCase().includes(searchTerm));
+        const topicsMatch = article.topics.some(topic => this.searchIndex.topics[topic].toLowerCase().includes(searchTerm));
+        
+        const match = titleMatch || excerptMatch || problemsMatch || solutionsMatch || topicsMatch;
+        
+        if (match) {
+          console.log(`Match found in article: "${article.title}"`);
+          if (titleMatch) console.log(`  - Title match`);
+          if (excerptMatch) console.log(`  - Excerpt match`);
+          if (problemsMatch) console.log(`  - Problems match`);
+          if (solutionsMatch) console.log(`  - Solutions match`);
+          if (topicsMatch) console.log(`  - Topics match`);
+        }
+        
+        return match;
+      });
+      
+      console.log(`After text search: ${results.length} articles found`);
     }
     
     return results;

@@ -225,9 +225,23 @@ class WayfairResourceHub {
     const articles = articlesData.getArticlesBySegment(segment);
     const segmentName = articlesData.searchIndex.customerSegments[segment];
     
+    console.log(`Showing articles for segment: ${segment} (${segmentName})`);
+    console.log(`Found ${articles.length} articles for this segment`);
+    
     // Use search interface to show results
     if (window.searchManager) {
+      console.log('SearchManager available, filtering by segment');
       searchManager.filterBySegment(segment);
+    } else {
+      console.log('SearchManager not available, waiting for initialization');
+      // Wait a bit for searchManager to initialize
+      setTimeout(() => {
+        if (window.searchManager) {
+          searchManager.filterBySegment(segment);
+        } else {
+          console.error('SearchManager still not available after timeout');
+        }
+      }, 100);
     }
     
     this.trackEvent('segment_click', { segment, articleCount: articles.length });

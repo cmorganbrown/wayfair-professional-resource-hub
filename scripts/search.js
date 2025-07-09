@@ -379,4 +379,6 @@ class QuickSearch {
 let searchManager;
 document.addEventListener('DOMContentLoaded', () => {
   searchManager = new SearchManager();
+  window.searchManager = searchManager; // Make globally available
+  console.log('SearchManager initialized and available globally');
 }); 
