@@ -255,28 +255,191 @@ class SearchManager {
   }
   
   openArticle(articleId) {
-    // In a real implementation, this would navigate to the article page
     const article = articlesData.getArticleById(articleId);
     if (article) {
-      // For now, we'll show an alert with the article title
-      // In production, this would open the article in a new page or modal
-      alert(`Opening article: ${article.title}\n\nThis would navigate to the full article page.`);
+      // Use the main app's article modal functionality
+      if (window.app) {
+        window.app.openArticle(articleId);
+      } else {
+        // Fallback: create a basic modal with available content
+        this.createBasicArticleModal(article);
+      }
       
       // Track the interaction (for analytics)
       this.trackArticleView(articleId);
     }
   }
-  
+
+  createBasicArticleModal(article) {
+    // Create modal overlay
+    const modal = document.createElement('div');
+    modal.className = 'article-modal';
+    modal.innerHTML = `
+      <div class="article-modal-content">
+        <div class="article-modal-header">
+          <h1>${article.title}</h1>
+          <button class="close-modal" onclick="this.parentElement.parentElement.parentElement.remove(); document.body.style.overflow = '';">&times;</button>
+        </div>
+        <div class="article-modal-body">
+          <div class="article-content">
+            <div class="article-meta-info">
+              <div class="article-segment">
+                <strong>Target Audience:</strong> ${articlesData.searchIndex.customerSegments[article.customerSegment]}
+              </div>
+              <div class="article-metrics">
+                <span><strong>ROI:</strong> ${article.roi}</span>
+                <span><strong>Read Time:</strong> ${article.readTime} minutes</span>
+                <span><strong>Priority Level:</strong> ${article.painLevel}/9</span>
+              </div>
+            </div>
+            
+            <div class="article-excerpt">
+              <h3>Overview</h3>
+              <p>${article.excerpt}</p>
+            </div>
+            
+            <div class="article-problems">
+              <h3>Problems This Article Solves</h3>
+              <ul>
+                ${article.problemsSolved.map(problem => `<li>${problem}</li>`).join('')}
+              </ul>
+            </div>
+            
+            <div class="wayfair-solutions">
+              <h3>Wayfair Professional Solutions</h3>
+              <ul>
+                ${article.wayfairSolutions.map(solution => `<li>${solution}</li>`).join('')}
+              </ul>
+            </div>
+            
+            ${article.content ? `<div class="full-content">${article.content}</div>` : ''}
+            
+            <div class="cta-section">
+              <h4>Ready to Transform Your Space?</h4>
+              <p>Get personalized recommendations from Wayfair Professional specialists.</p>
+              <div class="cta-buttons">
+                <button class="btn-consultation" onclick="searchManager.requestConsultation('${article.id}')">
+                  Get Free Consultation
+                </button>
+                <a href="https://www.wayfair.com/professional/" class="btn-products" target="_blank">
+                  Browse Solutions
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    
+    document.body.appendChild(modal);
+    document.body.style.overflow = 'hidden';
+    
+    // Animate in
+    setTimeout(() => modal.classList.add('show'), 50);
+    
+    // Close on escape key
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') {
+        modal.remove();
+        document.body.style.overflow = '';
+        document.removeEventListener('keydown', handleEscape);
+      }
+    };
+    document.addEventListener('keydown', handleEscape);
+    
+    // Close on background click
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.remove();
+        document.body.style.overflow = '';
+        document.removeEventListener('keydown', handleEscape);
+      }
+    });
+  }
+
   requestConsultation(articleId) {
     const article = articlesData.getArticleById(articleId);
     if (article) {
-      // In a real implementation, this would open a consultation form
-      // pre-populated with the article context
-      alert(`Requesting consultation for: ${article.title}\n\nThis would open a consultation request form with context about this article's topic.`);
+      // Use main app consultation functionality if available
+      if (window.app) {
+        window.app.requestConsultation(articleId);
+      } else {
+        // Fallback: show consultation modal
+        this.showConsultationForm(article);
+      }
       
       // Track the interaction (for analytics)
       this.trackConsultationRequest(articleId);
     }
+  }
+
+  showConsultationForm(article) {
+    // Create consultation modal
+    const modal = document.createElement('div');
+    modal.className = 'consultation-modal';
+    modal.innerHTML = `
+      <div class="consultation-modal-content">
+        <div class="consultation-modal-header">
+          <h2>Request Free Consultation</h2>
+          <button class="close-modal" onclick="this.parentElement.parentElement.parentElement.remove(); document.body.style.overflow = '';">&times;</button>
+        </div>
+        <div class="consultation-modal-body">
+          <div class="consultation-info">
+            <h3>Get Expert Guidance for: ${article.title}</h3>
+            <p>Our Wayfair Professional specialists will provide personalized recommendations for your ${articlesData.searchIndex.customerSegments[article.customerSegment]} needs.</p>
+          </div>
+          <div class="consultation-contact">
+            <div class="contact-option">
+              <h4>📞 Call Now</h4>
+              <p><a href="tel:1-855-339-0297">1-855-339-0297</a></p>
+              <small>Monday-Friday, 8AM-8PM EST</small>
+            </div>
+            <div class="contact-option">
+              <h4>📧 Email</h4>
+              <p><a href="mailto:professional@wayfair.com">professional@wayfair.com</a></p>
+              <small>Response within 24 hours</small>
+            </div>
+            <div class="contact-option">
+              <h4>🌐 Online</h4>
+              <p><a href="https://www.wayfair.com/professional/" target="_blank">Visit Wayfair Professional</a></p>
+              <small>Browse solutions and request consultation</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    
+    document.body.appendChild(modal);
+    document.body.style.overflow = 'hidden';
+    
+    // Close functionality
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') {
+        modal.remove();
+        document.body.style.overflow = '';
+        document.removeEventListener('keydown', handleEscape);
+      }
+    };
+    document.addEventListener('keydown', handleEscape);
+    
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.remove();
+        document.body.style.overflow = '';
+        document.removeEventListener('keydown', handleEscape);
+      }
+    });
+  }
+
+  // Add method to show all articles
+  showAllArticles() {
+    // Clear any existing search and show all articles
+    this.searchInput.value = '';
+    this.customerFilter.value = '';
+    this.painLevelFilter.value = '';
+    
+    const allArticles = articlesData.getAllArticles();
+    this.displayResults(allArticles, '', {});
   }
   
   trackArticleView(articleId) {
