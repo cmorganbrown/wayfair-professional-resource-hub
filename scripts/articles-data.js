@@ -1451,8 +1451,390 @@ const articlesData = {
     }
   },
 
-  // Tier 2 and Tier 3 articles would be added here as they're completed
-  tier2: [],
+  // Tier 2 Articles - Key segment articles  
+  tier2: [
+    {
+      id: "interior_designers_sustainable_design_certification",
+      title: "Sustainable Design Certification and Green Practices: Strategic Excellence for Interior Design Professionals",
+      slug: "sustainable-design-certification-green-practices-strategic-excellence",
+      category: "Interior Designers",
+      customerSegment: "interior-designers",
+      painLevel: 7,
+      topics: ["compliance", "cost-optimization", "workflow-efficiency"],
+      excerpt: "Sustainable design certification and green practices have evolved from niche specializations to essential competencies for interior design professionals, with firms implementing comprehensive sustainability programs reporting 47% higher client satisfaction, 52% increased project value, and 39% improved profit margins.",
+      readTime: 18,
+      publishDate: "2024-01-14",
+      roi: "47% higher client satisfaction, 52% increased project value",
+      problemsSolved: ["Client demand for sustainability", "Competitive differentiation", "Professional certification requirements", "Environmental compliance"],
+      wayfairSolutions: ["Sustainable product portfolio", "Green design tools", "Environmental certifications", "Eco-friendly materials"],
+      metrics: {
+        potentialSavings: "$50,000-150,000 annual revenue increase",
+        implementationTime: "6-12 months certification",
+        roiTimeframe: "12-18 months"
+      }
+    },
+    {
+      id: "contractors_advanced_construction_technology",
+      title: "Advanced Construction Technology and Automation: Strategic Innovation for Contractor Excellence",
+      slug: "advanced-construction-technology-automation-strategic-innovation",
+      category: "Contractors", 
+      customerSegment: "contractors",
+      painLevel: 7,
+      topics: ["technology", "workflow-efficiency", "cost-optimization"],
+      excerpt: "Advanced construction technology and automation have emerged as critical differentiators in the contracting industry, with firms implementing comprehensive digital solutions reporting 42% faster project completion, 37% reduced labor costs, and 54% improved safety performance.",
+      readTime: 16,
+      publishDate: "2024-01-13",
+      roi: "42% faster project completion, 37% reduced labor costs",
+      problemsSolved: ["Project delays", "Labor cost increases", "Safety compliance", "Competitive pressure"],
+      wayfairSolutions: ["Technology integration support", "Digital project tools", "Professional training", "Implementation guidance"],
+      metrics: {
+        potentialSavings: "$100,000-500,000 per project",
+        implementationTime: "3-6 months",
+        roiTimeframe: "6-12 months"
+      }
+    },
+    {
+      id: "accommodations_revenue_optimization_pricing",
+      title: "Revenue Optimization and Pricing Strategies: Strategic Excellence for Accommodations",
+      slug: "revenue-optimization-pricing-strategies-accommodations",
+      category: "Accommodations",
+      customerSegment: "accommodations", 
+      painLevel: 6,
+      topics: ["cost-optimization", "workflow-efficiency"],
+      excerpt: "Revenue optimization through strategic furniture and space design enables accommodations to increase room rates by 23-34% while improving guest satisfaction scores through carefully planned comfort and aesthetic enhancements.",
+      readTime: 14,
+      publishDate: "2024-01-11",
+      roi: "23-34% room rate increase",
+      problemsSolved: ["Revenue optimization", "Guest satisfaction", "Competitive positioning", "Space utilization"],
+      wayfairSolutions: ["Hospitality furniture collections", "Revenue analysis tools", "Guest experience design", "ROI optimization"],
+      metrics: {
+        potentialSavings: "$200-500 per room annually", 
+        implementationTime: "2-4 months",
+        roiTimeframe: "6-12 months"
+      }
+    },
+    {
+      id: "education_technology_enhanced_learning",
+      title: "Technology-Enhanced Learning Environments: Strategic Innovation for Educational Excellence",
+      slug: "technology-enhanced-learning-environments-educational-excellence",
+      category: "Education",
+      customerSegment: "education",
+      painLevel: 6,
+      topics: ["technology", "space-planning", "workflow-efficiency"],
+      excerpt: "Technology-enhanced learning environments with integrated furniture solutions improve student engagement by 34% and learning outcomes by 28% through strategic technology integration and flexible space design.",
+      readTime: 15,
+      publishDate: "2024-01-09",
+      roi: "34% improved student engagement, 28% learning outcomes",
+      problemsSolved: ["Technology integration", "Student engagement", "Learning outcomes", "Space optimization"],
+      wayfairSolutions: ["Educational technology furniture", "Flexible learning spaces", "Integration support", "Professional planning"],
+      metrics: {
+        potentialSavings: "$50,000-200,000 efficiency gains",
+        implementationTime: "1-3 months",
+        roiTimeframe: "Academic year"
+      }
+    },
+    {
+      id: "foodservice_technology_integration_efficiency",
+      title: "Technology Integration and Operational Efficiency: Strategic Excellence for Foodservice",
+      slug: "technology-integration-operational-efficiency-foodservice",
+      category: "Foodservice",
+      customerSegment: "foodservice",
+      painLevel: 6,
+      topics: ["technology", "workflow-efficiency", "cost-optimization"],
+      excerpt: "Technology integration in foodservice operations through strategic furniture and workspace design reduces operational costs by 18-27% while improving service efficiency and customer satisfaction.",
+      readTime: 13,
+      publishDate: "2024-01-07",
+      roi: "18-27% operational cost reduction",
+      problemsSolved: ["Operational efficiency", "Technology integration", "Cost management", "Service quality"],
+      wayfairSolutions: ["Commercial kitchen solutions", "Technology-integrated furniture", "Workflow optimization", "Efficiency consulting"],
+      metrics: {
+        potentialSavings: "$75,000-300,000 annually",
+        implementationTime: "2-6 weeks", 
+        roiTimeframe: "3-6 months"
+      }
+    },
+    {
+      id: "office_procurement_technology_digital_workplace",
+      title: "Technology Procurement and Digital Workplace Solutions: Strategic Excellence for Office Procurement",
+      slug: "technology-procurement-digital-workplace-solutions",
+      category: "Office Procurement",
+      customerSegment: "office-procurement",
+      painLevel: 6,
+      topics: ["technology", "cost-optimization", "workflow-efficiency"],
+      excerpt: "Strategic technology procurement and digital workplace solutions enable organizations to reduce technology costs by 22-35% while improving employee productivity and satisfaction through integrated furniture and technology systems.",
+      readTime: 14,
+      publishDate: "2024-01-06",
+      roi: "22-35% technology cost reduction",
+      problemsSolved: ["Technology costs", "Digital transformation", "Employee productivity", "Procurement efficiency"],
+      wayfairSolutions: ["Technology-integrated furniture", "Procurement optimization", "Digital workplace design", "Cost analysis tools"],
+      metrics: {
+        potentialSavings: "$100,000-400,000 annually",
+        implementationTime: "4-8 weeks",
+        roiTimeframe: "6-12 months"
+      }
+    },
+    {
+      id: "property_management_maintenance_cost_reduction",
+      title: "Maintenance Cost Reduction Strategies: Strategic Excellence for Property Management",
+      slug: "maintenance-cost-reduction-strategies-property-management",
+      category: "Property Management", 
+      customerSegment: "property-management",
+      painLevel: 5,
+      topics: ["cost-optimization", "durability", "workflow-efficiency"],
+      excerpt: "Strategic maintenance cost reduction through durable furniture selection and preventive programs reduces annual maintenance expenses by 35-48% while extending asset lifecycles and improving tenant satisfaction.",
+      readTime: 12,
+      publishDate: "2024-01-04",
+      roi: "35-48% maintenance cost reduction",
+      problemsSolved: ["High maintenance costs", "Asset lifecycle management", "Tenant satisfaction", "Budget optimization"],
+      wayfairSolutions: ["Durable commercial furniture", "Maintenance planning tools", "Lifecycle analysis", "Cost optimization consulting"],
+      metrics: {
+        potentialSavings: "$50,000-200,000 annually",
+        implementationTime: "1-2 months",
+        roiTimeframe: "12-18 months"
+      }
+    },
+    {
+      id: "article_61_digital_transformation_workspace",
+      title: "Digital Transformation in Commercial Workspace Management",
+      slug: "digital-transformation-commercial-workspace-management",
+      category: "Commercial Solutions",
+      customerSegment: "tier1",
+      painLevel: 8,
+      topics: ["technology", "workflow-efficiency", "cost-optimization"],
+      excerpt: "Digital transformation in commercial workspace management enables organizations to reduce operational costs by 30-45% while improving space utilization and employee productivity through integrated technology and furniture solutions.",
+      readTime: 12,
+      publishDate: "2024-01-15",
+      roi: "30-45% operational cost reduction",
+      problemsSolved: ["Digital transformation", "Operational efficiency", "Cost management", "Space utilization"],
+      wayfairSolutions: ["Smart workspace solutions", "Technology integration", "Digital transformation consulting", "Automated systems"],
+      metrics: {
+        potentialSavings: "$200,000-800,000 annually",
+        implementationTime: "3-6 months",
+        roiTimeframe: "6-12 months"
+      }
+    },
+    {
+      id: "article_62_smart_building_technology",
+      title: "Smart Building Technology and Facility Optimization",
+      slug: "smart-building-technology-facility-optimization",
+      category: "Commercial Solutions",
+      customerSegment: "tier1",
+      painLevel: 8,
+      topics: ["technology", "cost-optimization", "workflow-efficiency"],
+      excerpt: "Smart building technology integration with strategic furniture placement optimizes facility operations, reducing energy costs by 25-40% and improving occupant comfort and productivity.",
+      readTime: 13,
+      publishDate: "2024-01-15",
+      roi: "25-40% energy cost reduction",
+      problemsSolved: ["Energy efficiency", "Facility optimization", "Occupant comfort", "Operational costs"],
+      wayfairSolutions: ["Smart furniture solutions", "IoT integration", "Energy optimization", "Facility planning"],
+      metrics: {
+        potentialSavings: "$150,000-600,000 annually",
+        implementationTime: "2-4 months",
+        roiTimeframe: "6-18 months"
+      }
+    },
+    {
+      id: "article_63_workplace_culture_transformation",
+      title: "Workplace Culture Transformation and Employee Engagement",
+      slug: "workplace-culture-transformation-employee-engagement",
+      category: "Commercial Solutions",
+      customerSegment: "tier1",
+      painLevel: 8,
+      topics: ["workflow-efficiency", "space-planning", "cost-optimization"],
+      excerpt: "Workplace culture transformation through strategic furniture and space design improves employee engagement by 42% and reduces turnover costs by $50,000-200,000 annually through enhanced work environments.",
+      readTime: 14,
+      publishDate: "2024-01-15",
+      roi: "42% employee engagement improvement",
+      problemsSolved: ["Employee engagement", "Culture transformation", "Turnover reduction", "Workspace satisfaction"],
+      wayfairSolutions: ["Culture-focused design", "Engagement furniture", "Collaborative spaces", "Wellness solutions"],
+      metrics: {
+        potentialSavings: "$50,000-200,000 turnover savings",
+        implementationTime: "2-6 months",
+        roiTimeframe: "6-12 months"
+      }
+    },
+    {
+      id: "interior_designers_space_planning_optimization",
+      title: "Space Planning Optimization and Client ROI Enhancement",
+      slug: "space-planning-optimization-client-roi-enhancement",
+      category: "Interior Designers",
+      customerSegment: "interior-designers",
+      painLevel: 7,
+      topics: ["space-planning", "cost-optimization", "workflow-efficiency"],
+      excerpt: "Advanced space planning optimization techniques enable interior designers to deliver 35% higher client ROI while reducing project costs and improving space utilization efficiency.",
+      readTime: 11,
+      publishDate: "2024-01-13",
+      roi: "35% higher client ROI",
+      problemsSolved: ["Space optimization", "Client ROI", "Project efficiency", "Cost management"],
+      wayfairSolutions: ["Space planning tools", "ROI analysis", "Optimization software", "Professional consulting"],
+      metrics: {
+        potentialSavings: "$25,000-100,000 per project",
+        implementationTime: "2-4 weeks",
+        roiTimeframe: "Per project"
+      }
+    },
+    {
+      id: "contractors_project_management_efficiency",
+      title: "Project Management Efficiency and Timeline Optimization",
+      slug: "project-management-efficiency-timeline-optimization",
+      category: "Contractors",
+      customerSegment: "contractors",
+      painLevel: 7,
+      topics: ["workflow-efficiency", "cost-optimization", "technology"],
+      excerpt: "Project management efficiency optimization through integrated furniture delivery and installation reduces project timelines by 28% while preventing costly delays and improving client satisfaction.",
+      readTime: 13,
+      publishDate: "2024-01-12",
+      roi: "28% timeline reduction",
+      problemsSolved: ["Project delays", "Timeline management", "Coordination challenges", "Cost overruns"],
+      wayfairSolutions: ["Project coordination", "Delivery optimization", "Installation services", "Timeline management"],
+      metrics: {
+        potentialSavings: "$75,000-300,000 per project",
+        implementationTime: "Immediate",
+        roiTimeframe: "Per project"
+      }
+    },
+    {
+      id: "accommodations_guest_services_optimization",
+      title: "Guest Services Optimization and Hospitality Efficiency",
+      slug: "guest-services-optimization-hospitality-efficiency",
+      category: "Accommodations",
+      customerSegment: "accommodations",
+      painLevel: 6,
+      topics: ["workflow-efficiency", "cost-optimization", "space-planning"],
+      excerpt: "Guest services optimization through strategic furniture placement and design improves service efficiency by 31% while enhancing guest satisfaction and reducing operational costs.",
+      readTime: 12,
+      publishDate: "2024-01-11",
+      roi: "31% service efficiency improvement",
+      problemsSolved: ["Service efficiency", "Guest satisfaction", "Operational costs", "Staff productivity"],
+      wayfairSolutions: ["Hospitality furniture", "Service optimization", "Guest experience design", "Operational consulting"],
+      metrics: {
+        potentialSavings: "$100-300 per room annually",
+        implementationTime: "4-8 weeks",
+        roiTimeframe: "3-6 months"
+      }
+    },
+    {
+      id: "education_student_wellness_mental_health",
+      title: "Student Wellness and Mental Health Facility Design",
+      slug: "student-wellness-mental-health-facility-design",
+      category: "Education",
+      customerSegment: "education",
+      painLevel: 6,
+      topics: ["space-planning", "compliance", "workflow-efficiency"],
+      excerpt: "Student wellness-focused facility design with therapeutic furniture and calming environments reduces behavioral incidents by 44% while improving academic performance and mental health outcomes.",
+      readTime: 16,
+      publishDate: "2024-01-09",
+      roi: "44% reduction in behavioral incidents",
+      problemsSolved: ["Student mental health", "Behavioral issues", "Academic performance", "Wellness support"],
+      wayfairSolutions: ["Wellness-focused furniture", "Therapeutic design", "Calming environments", "Mental health support"],
+      metrics: {
+        potentialSavings: "$25,000-100,000 intervention costs",
+        implementationTime: "2-6 months",
+        roiTimeframe: "Academic year"
+      }
+    },
+    {
+      id: "foodservice_food_safety_compliance",
+      title: "Food Safety Compliance and Facility Management Excellence",
+      slug: "food-safety-compliance-facility-management",
+      category: "Foodservice",
+      customerSegment: "foodservice",
+      painLevel: 6,
+      topics: ["compliance", "workflow-efficiency", "durability"],
+      excerpt: "Food safety compliance through strategic furniture and equipment placement reduces health code violations by 67% while improving operational efficiency and reducing compliance costs.",
+      readTime: 14,
+      publishDate: "2024-01-07",
+      roi: "67% reduction in health code violations",
+      problemsSolved: ["Food safety compliance", "Health code violations", "Operational efficiency", "Compliance costs"],
+      wayfairSolutions: ["Commercial-grade furniture", "Compliance consulting", "Safety optimization", "Regulatory support"],
+      metrics: {
+        potentialSavings: "$50,000-200,000 compliance costs",
+        implementationTime: "2-8 weeks",
+        roiTimeframe: "3-6 months"
+      }
+    },
+    {
+      id: "tier1_011_workplace_wellness_furniture",
+      title: "Workplace Wellness Furniture and Employee Productivity Enhancement",
+      slug: "workplace-wellness-furniture-employee-productivity",
+      category: "Commercial Solutions",
+      customerSegment: "tier1",
+      painLevel: 8,
+      topics: ["workflow-efficiency", "cost-optimization", "compliance"],
+      excerpt: "Workplace wellness furniture solutions improve employee productivity by 29% while reducing healthcare costs and absenteeism through ergonomic design and wellness-focused workspace environments.",
+      readTime: 11,
+      publishDate: "2024-01-15",
+      roi: "29% productivity improvement",
+      problemsSolved: ["Employee wellness", "Productivity optimization", "Healthcare costs", "Workplace injuries"],
+      wayfairSolutions: ["Ergonomic furniture", "Wellness solutions", "Productivity tools", "Health-focused design"],
+      metrics: {
+        potentialSavings: "$3,000-5,000 per employee annually",
+        implementationTime: "2-4 weeks",
+        roiTimeframe: "6-12 months"
+      }
+    },
+    {
+      id: "tier1_012_flexible_workspace_design",
+      title: "Flexible Workspace Design and Agile Environment Solutions",
+      slug: "flexible-workspace-design-agile-environments",
+      category: "Commercial Solutions", 
+      customerSegment: "tier1",
+      painLevel: 8,
+      topics: ["space-planning", "workflow-efficiency", "technology"],
+      excerpt: "Flexible workspace design with modular furniture systems enables 45% faster space reconfiguration while supporting agile work methodologies and improving team collaboration effectiveness.",
+      readTime: 13,
+      publishDate: "2024-01-15",
+      roi: "45% faster space reconfiguration",
+      problemsSolved: ["Space flexibility", "Agile methodology support", "Team collaboration", "Rapid reconfiguration"],
+      wayfairSolutions: ["Modular furniture systems", "Flexible design", "Agile workspace tools", "Collaboration solutions"],
+      metrics: {
+        potentialSavings: "$100,000-400,000 space efficiency",
+        implementationTime: "4-8 weeks",
+        roiTimeframe: "3-6 months"
+      }
+    },
+    {
+      id: "tier1_013_workplace_safety_ergonomics",
+      title: "Workplace Safety, Ergonomics and Injury Prevention Solutions",
+      slug: "workplace-safety-ergonomics-injury-prevention",
+      category: "Commercial Solutions",
+      customerSegment: "tier1",
+      painLevel: 8,
+      topics: ["compliance", "cost-optimization", "workflow-efficiency"],
+      excerpt: "Workplace safety and ergonomics programs with strategic furniture selection reduce workplace injuries by 58% while improving compliance and reducing workers' compensation costs.",
+      readTime: 12,
+      publishDate: "2024-01-15",
+      roi: "58% workplace injury reduction",
+      problemsSolved: ["Workplace safety", "Ergonomic injuries", "Compliance requirements", "Insurance costs"],
+      wayfairSolutions: ["Ergonomic furniture", "Safety compliance", "Injury prevention", "Risk assessment"],
+      metrics: {
+        potentialSavings: "$50,000-200,000 insurance savings",
+        implementationTime: "2-6 weeks",
+        roiTimeframe: "6-12 months"
+      }
+    },
+    {
+      id: "tier1_014_crisis_management_continuity",
+      title: "Crisis Management and Business Continuity Planning Solutions",
+      slug: "crisis-management-business-continuity-planning",
+      category: "Commercial Solutions",
+      customerSegment: "tier1", 
+      painLevel: 8,
+      topics: ["workflow-efficiency", "technology", "space-planning"],
+      excerpt: "Crisis management and business continuity planning with flexible furniture solutions enables 67% faster crisis response while maintaining operational capabilities during disruptions.",
+      readTime: 14,
+      publishDate: "2024-01-15",
+      roi: "67% faster crisis response",
+      problemsSolved: ["Crisis preparedness", "Business continuity", "Operational resilience", "Emergency planning"],
+      wayfairSolutions: ["Flexible crisis furniture", "Emergency planning", "Continuity solutions", "Rapid deployment"],
+      metrics: {
+        potentialSavings: "$500,000-2,000,000 crisis costs",
+        implementationTime: "1-3 months",
+        roiTimeframe: "Crisis event dependent"
+      }
+    }
+  ],
+
   tier3: [],
 
   // Helper methods
